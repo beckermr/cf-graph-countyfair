@@ -505,7 +505,6 @@
     "pynucastro": "2.5.0",
     "pypalettes": "0.1.5",
     "pypolymlp": "0.7.5",
-    "pyquil": "4.16.0",
     "pyshacl": "0.30.0",
     "pystac": "1.12.0",
     "pytest-textual-snapshot": "1.1.0",
