@@ -1,12 +1,12 @@
 {
- "ETag": "W/\"db8f6d799b118a88914cb258880d15165340585f84d652ee01f3982216e23333\"",
- "Last-Modified": "Mon, 23 Dec 2024 06:50:27 GMT",
+ "ETag": "W/\"3dde591f319835f05f930025bd0301ee28209740cb4329c1e9a922813577c000\"",
+ "Last-Modified": "Fri, 24 Jan 2025 10:08:44 GMT",
  "base": {
   "repo": {
    "name": "empack-feedstock"
   }
  },
- "closed_at": null,
+ "closed_at": "2025-01-24T10:08:43Z",
  "created_at": "2024-12-23T06:49:09Z",
  "draft": false,
  "e_tag": "\"85f1b78517e5a9d4c7e475e367c289be1c21fed35b192804142aab530b434fae\"",
@@ -15,13 +15,23 @@
  },
  "html_url": "https://github.com/conda-forge/empack-feedstock/pull/54",
  "id": 2248917207,
- "labels": [],
+ "labels": [
+  {
+   "color": "191970",
+   "default": false,
+   "description": "Instruct the bot to retry the PR",
+   "id": 4143254105,
+   "name": "bot-rerun",
+   "node_id": "LA_kwDOHWu16c729QpZ",
+   "url": "https://api.github.com/repos/conda-forge/empack-feedstock/labels/bot-rerun"
+  }
+ ],
  "last_modified": null,
- "mergeable": true,
- "mergeable_state": "clean",
+ "mergeable": false,
+ "mergeable_state": "dirty",
  "merged": false,
  "merged_at": null,
  "number": 54,
- "state": "open",
- "updated_at": "2024-12-23T06:50:27Z"
+ "state": "closed",
+ "updated_at": "2025-01-24T10:08:44Z"
 }
