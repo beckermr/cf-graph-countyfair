@@ -17,16 +17,25 @@
   "about": {
    "dev_url": "https://github.com/plotly/dash",
    "doc_url": "https://dash.plotly.com",
-   "home": "https://plot.ly/dash",
+   "home": "https://plotly.com/dash",
    "license": "MIT",
    "license_family": "MIT",
    "license_file": "LICENSE",
-   "summary": "A Python framework for building reactive web-apps."
+   "summary": "A Python framework for building reactive web-apps. Developed by Plotly."
   },
   "build": {
+   "entry_points": [
+    "dash-generate-components = dash.development.component_generator:cli",
+    "renderer = dash.development.build_process:renderer",
+    "dash-update-components = dash.development.update_components:cli"
+   ],
    "noarch": "python",
-   "number": "1",
-   "script": "PYTHON -m pip install . --no-deps -vv"
+   "number": "2",
+   "script": [
+    "sed -i.bak \"s/Flask>=1.0.4,<3.1/flask>=1.0.4/g\" requirements/install.txt",
+    "sed -i.bak \"s/Werkzeug<3.1/werkzeug/g\" requirements/install.txt",
+    "PYTHON -m pip install . -vv --no-deps --no-build-isolation"
+   ]
   },
   "extra": {
    "recipe-maintainers": [
@@ -39,6 +48,9 @@
    "version": "2.18.2"
   },
   "requirements": {
+   "build": [
+    "sed"
+   ],
    "host": [
     "python 3.9",
     "setuptools",
@@ -46,15 +58,15 @@
    ],
    "run": [
     "python >=3.9",
-    "setuptools",
     "flask >=1.0.4",
     "werkzeug",
     "plotly >=5.0.0",
-    "typing-extensions >=4.1.1",
+    "importlib-metadata",
+    "typing_extensions >=4.1.1",
     "requests",
     "retrying",
     "nest-asyncio",
-    "importlib-metadata"
+    "setuptools"
    ],
    "run_constrained": [
     "dash-html-components >=2.0.0",
@@ -64,7 +76,6 @@
   },
   "schema_version": 0,
   "source": {
-   "fn": "dash-2.18.2.tar.gz",
    "sha256": "20e8404f73d0fe88ce2eae33c25bbc513cbe52f30d23a401fa5f24dbb44296c8",
    "url": "https://pypi.org/packages/source/d/dash/dash-2.18.2.tar.gz"
   },
@@ -72,13 +83,18 @@
    "commands": [
     "pytest test_not_found.py",
     "conda install -c conda-forge dash-html-components dash-core-components dash-table -y",
-    "pytest test_warnings.py"
+    "pytest test_warnings.py",
+    "pip check",
+    "dash-generate-components --help",
+    "renderer --help",
+    "dash-update-components --help"
    ],
    "files": [
     "test_not_found.py",
     "test_warnings.py"
    ],
    "imports": [
+    "dash",
     "dash.dash",
     "dash.dependencies",
     "dash.exceptions",
@@ -90,14 +106,20 @@
    ],
    "requires": [
     "pytest",
-    "python 3.9"
+    "python 3.9",
+    "pip",
+    "coloredlogs >=15.0.1",
+    "fire >=0.4.0",
+    "pyyaml >=5.4.1"
    ]
   }
  },
  "linux_64_requirements": {
   "build": {
    "__set__": true,
-   "elements": []
+   "elements": [
+    "sed"
+   ]
   },
   "host": {
    "__set__": true,
@@ -118,15 +140,19 @@
     "requests",
     "retrying",
     "setuptools",
-    "typing-extensions",
+    "typing_extensions",
     "werkzeug"
    ]
   },
   "test": {
    "__set__": true,
    "elements": [
+    "coloredlogs",
+    "fire",
+    "pip",
     "pytest",
-    "python"
+    "python",
+    "pyyaml"
    ]
   }
  },
@@ -134,16 +160,25 @@
   "about": {
    "dev_url": "https://github.com/plotly/dash",
    "doc_url": "https://dash.plotly.com",
-   "home": "https://plot.ly/dash",
+   "home": "https://plotly.com/dash",
    "license": "MIT",
    "license_family": "MIT",
    "license_file": "LICENSE",
-   "summary": "A Python framework for building reactive web-apps."
+   "summary": "A Python framework for building reactive web-apps. Developed by Plotly."
   },
   "build": {
+   "entry_points": [
+    "dash-generate-components = dash.development.component_generator:cli",
+    "renderer = dash.development.build_process:renderer",
+    "dash-update-components = dash.development.update_components:cli"
+   ],
    "noarch": "python",
-   "number": "1",
-   "script": "PYTHON -m pip install . --no-deps -vv"
+   "number": "2",
+   "script": [
+    "sed -i.bak \"s/Flask>=1.0.4,<3.1/flask>=1.0.4/g\" requirements/install.txt",
+    "sed -i.bak \"s/Werkzeug<3.1/werkzeug/g\" requirements/install.txt",
+    "PYTHON -m pip install . -vv --no-deps --no-build-isolation"
+   ]
   },
   "extra": {
    "recipe-maintainers": [
@@ -156,6 +191,9 @@
    "version": "2.18.2"
   },
   "requirements": {
+   "build": [
+    "sed"
+   ],
    "host": [
     "python 3.9",
     "setuptools",
@@ -163,15 +201,15 @@
    ],
    "run": [
     "python >=3.9",
-    "setuptools",
     "flask >=1.0.4",
     "werkzeug",
     "plotly >=5.0.0",
-    "typing-extensions >=4.1.1",
+    "importlib-metadata",
+    "typing_extensions >=4.1.1",
     "requests",
     "retrying",
     "nest-asyncio",
-    "importlib-metadata"
+    "setuptools"
    ],
    "run_constrained": [
     "dash-html-components >=2.0.0",
@@ -181,7 +219,6 @@
   },
   "schema_version": 0,
   "source": {
-   "fn": "dash-2.18.2.tar.gz",
    "sha256": "20e8404f73d0fe88ce2eae33c25bbc513cbe52f30d23a401fa5f24dbb44296c8",
    "url": "https://pypi.org/packages/source/d/dash/dash-2.18.2.tar.gz"
   },
@@ -189,13 +226,18 @@
    "commands": [
     "pytest test_not_found.py",
     "conda install -c conda-forge dash-html-components dash-core-components dash-table -y",
-    "pytest test_warnings.py"
+    "pytest test_warnings.py",
+    "pip check",
+    "dash-generate-components --help",
+    "renderer --help",
+    "dash-update-components --help"
    ],
    "files": [
     "test_not_found.py",
     "test_warnings.py"
    ],
    "imports": [
+    "dash",
     "dash.dash",
     "dash.dependencies",
     "dash.exceptions",
@@ -207,7 +249,11 @@
    ],
    "requires": [
     "pytest",
-    "python 3.9"
+    "python 3.9",
+    "pip",
+    "coloredlogs >=15.0.1",
+    "fire >=0.4.0",
+    "pyyaml >=5.4.1"
    ]
   }
  },
@@ -225,7 +271,7 @@
  "pr_info": {
   "__lazy_json__": "pr_info/dash.json"
  },
- "raw_meta_yaml": "{% set name = \"dash\" %}\n{% set version = \"2.18.2\" %}\n{% set sha256 = \"20e8404f73d0fe88ce2eae33c25bbc513cbe52f30d23a401fa5f24dbb44296c8\" %}\n\npackage:\n  name: {{ name|lower }}\n  version: {{ version }}\n\nsource:\n  fn: {{ name }}-{{ version }}.tar.gz\n  url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz\n  sha256: {{ sha256 }}\n\nbuild:\n  number: 1\n  script: {{ PYTHON }} -m pip install . --no-deps -vv\n  noarch: python\n\nrequirements:\n  host:\n    - python {{ python_min }}\n    - setuptools\n    - pip\n  run:\n    - python >={{ python_min }}\n    - setuptools\n    - flask >=1.0.4\n    - werkzeug\n    - plotly >=5.0.0\n    - typing-extensions >=4.1.1\n    - requests\n    - retrying\n    - nest-asyncio\n    - importlib-metadata\n  run_constrained:\n    - dash-html-components >=2.0.0\n    - dash-core-components >=2.0.0\n    - dash_table >=5.0.0\n\ntest:\n  requires:\n    - pytest\n    - python {{ python_min }}\n  imports:\n    - dash.dash\n    - dash.dependencies\n    - dash.exceptions\n    - dash.resources\n    - dash.dcc\n    - dash.html\n    - dash.dash_table\n    - dash.testing\n  commands:\n    - pytest test_not_found.py\n    - conda install -c conda-forge dash-html-components dash-core-components dash-table -y\n    - pytest test_warnings.py\n  files:\n    - test_not_found.py\n    - test_warnings.py\n\nabout:\n  home: https://plot.ly/dash\n  dev_url: https://github.com/plotly/dash\n  doc_url: https://dash.plotly.com\n  license: MIT\n  license_family: MIT\n  license_file: LICENSE\n  summary: A Python framework for building reactive web-apps.\n\nextra:\n  recipe-maintainers:\n    - bandersen23\n    - moorepants\n",
+ "raw_meta_yaml": "{% set name = \"dash\" %}\n{% set version = \"2.18.2\" %}\n\npackage:\n  name: {{ name|lower }}\n  version: {{ version }}\n\nsource:\n  url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/dash-{{ version }}.tar.gz\n  sha256: 20e8404f73d0fe88ce2eae33c25bbc513cbe52f30d23a401fa5f24dbb44296c8\n\nbuild:\n  entry_points:\n    - dash-generate-components = dash.development.component_generator:cli\n    - renderer = dash.development.build_process:renderer\n    - dash-update-components = dash.development.update_components:cli\n  noarch: python\n  script:\n    - sed -i.bak \"s/Flask>=1.0.4,<3.1/flask>=1.0.4/g\" requirements/install.txt\n    - sed -i.bak \"s/Werkzeug<3.1/werkzeug/g\" requirements/install.txt\n    - {{ PYTHON }} -m pip install . -vv --no-deps --no-build-isolation\n  number: 2\n\nrequirements:\n  build:\n    - sed     # [unix]\n    - m2-sed  # [win]\n  host:\n    - python {{ python_min }}\n    - setuptools\n    - pip\n  run:\n    - python >={{ python_min }}\n    # https://github.com/plotly/dash/blob/v2.18.2/requirements/install.txt\n    - flask >=1.0.4\n    - werkzeug\n    - plotly >=5.0.0\n    - importlib-metadata\n    - typing_extensions >=4.1.1\n    - requests\n    - retrying\n    - nest-asyncio\n    - setuptools\n  run_constrained:\n    - dash-html-components >=2.0.0\n    - dash-core-components >=2.0.0\n    - dash_table >=5.0.0\n\ntest:\n  requires:\n    - pytest\n    - python {{ python_min }}\n    - pip\n    - coloredlogs >=15.0.1\n    - fire >=0.4.0\n    - pyyaml >=5.4.1\n  imports:\n    - dash\n    - dash.dash\n    - dash.dependencies\n    - dash.exceptions\n    - dash.resources\n    - dash.dcc\n    - dash.html\n    - dash.dash_table\n    - dash.testing\n  commands:\n    - pytest test_not_found.py\n    - conda install -c conda-forge dash-html-components dash-core-components dash-table -y\n    - pytest test_warnings.py\n    - pip check\n    - dash-generate-components --help\n    - renderer --help\n    - dash-update-components --help\n  files:\n    - test_not_found.py\n    - test_warnings.py\n\nabout:\n  home: https://plotly.com/dash\n  summary: A Python framework for building reactive web-apps. Developed by Plotly.\n  dev_url: https://github.com/plotly/dash\n  doc_url: https://dash.plotly.com\n  license_family: MIT\n  license: MIT\n  license_file: LICENSE\n\nextra:\n  recipe-maintainers:\n    - bandersen23\n    - moorepants\n",
  "req": {
   "__set__": true,
   "elements": [
@@ -237,15 +283,18 @@
    "python",
    "requests",
    "retrying",
+   "sed",
    "setuptools",
-   "typing-extensions",
+   "typing_extensions",
    "werkzeug"
   ]
  },
  "requirements": {
   "build": {
    "__set__": true,
-   "elements": []
+   "elements": [
+    "sed"
+   ]
   },
   "host": {
    "__set__": true,
@@ -266,15 +315,19 @@
     "requests",
     "retrying",
     "setuptools",
-    "typing-extensions",
+    "typing_extensions",
     "werkzeug"
    ]
   },
   "test": {
    "__set__": true,
    "elements": [
+    "coloredlogs",
+    "fire",
+    "pip",
     "pytest",
-    "python"
+    "python",
+    "pyyaml"
    ]
   }
  },
@@ -282,7 +335,9 @@
  "total_requirements": {
   "build": {
    "__set__": true,
-   "elements": []
+   "elements": [
+    "sed"
+   ]
   },
   "host": {
    "__set__": true,
@@ -303,15 +358,19 @@
     "requests",
     "retrying",
     "setuptools",
-    "typing-extensions >=4.1.1",
+    "typing_extensions >=4.1.1",
     "werkzeug"
    ]
   },
   "test": {
    "__set__": true,
    "elements": [
+    "coloredlogs >=15.0.1",
+    "fire >=0.4.0",
+    "pip",
     "pytest",
-    "python 3.9"
+    "python 3.9",
+    "pyyaml >=5.4.1"
    ]
   }
  },
