@@ -29515,13 +29515,14 @@
         "r-rms",
         "r-rstanarm",
         "r-seurat",
+        "r-systemfonts",
         "r-testthat",
         "r-tseries",
         "r-v8",
         "r-webutils",
         "xgboost"
       ],
-      "num_descendants": 480,
+      "num_descendants": 484,
       "pr_status": "",
       "pr_url": "https://github.com/conda-forge/r-jsonlite-feedstock",
       "pre_pr_migrator_status": ""
