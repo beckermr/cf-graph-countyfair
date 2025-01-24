@@ -939,6 +939,7 @@
     "uxarray",
     "verticapy",
     "xcube",
+    "xeus-cpp",
     "xz"
   ]
 }
