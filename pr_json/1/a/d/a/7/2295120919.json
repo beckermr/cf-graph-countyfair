@@ -1,10 +1,12 @@
 {
+ "ETag": "W/\"aedbe8f350c10098b6ee1aa1279cb5faaee03de37e3bf43cb19529eccc887997\"",
+ "Last-Modified": "Fri, 24 Jan 2025 13:04:34 GMT",
  "base": {
   "repo": {
    "name": "libmetatensor-torch-feedstock"
   }
  },
- "closed_at": null,
+ "closed_at": "2025-01-24T13:04:33Z",
  "created_at": "2025-01-23T18:16:59Z",
  "draft": false,
  "e_tag": "\"3a26bf64c057486c1f479fa022914e98f3c94e65fb2daeefedb1af11f63d0b58\"",
@@ -15,11 +17,11 @@
  "id": 2295120919,
  "labels": [],
  "last_modified": null,
- "mergeable": null,
- "mergeable_state": "unknown",
+ "mergeable": true,
+ "mergeable_state": "clean",
  "merged": false,
  "merged_at": null,
  "number": 13,
- "state": "open",
- "updated_at": "2025-01-23T18:16:59Z"
+ "state": "closed",
+ "updated_at": "2025-01-24T13:04:34Z"
 }
