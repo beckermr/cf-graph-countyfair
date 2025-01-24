@@ -18770,9 +18770,6 @@
 - import_name: minimal_molview
   ranked_conda_names:
   - minimal_molview
-- import_name: minimalkv
-  ranked_conda_names:
-  - minimalkv
 - import_name: minimalmodbus
   ranked_conda_names:
   - minimalmodbus
