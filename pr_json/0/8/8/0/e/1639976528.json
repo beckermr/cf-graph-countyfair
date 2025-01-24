@@ -1,6 +1,6 @@
 {
- "ETag": "W/\"bc24cac4ac8ef9628b681a341af1574f97df3b19458bc54b085aaad110228c9a\"",
- "Last-Modified": "Fri, 24 Jan 2025 10:34:10 GMT",
+ "ETag": "W/\"d8e001751c2de25f6be5da3e745deb5ec9c1cf43143208124b5c8bebe6400a4c\"",
+ "Last-Modified": "Fri, 24 Jan 2025 10:34:45 GMT",
  "base": {
   "repo": {
    "name": "s3cmd-feedstock"
@@ -21,5 +21,5 @@
  "merged_at": "2025-01-24T10:34:10Z",
  "number": 5,
  "state": "closed",
- "updated_at": "2025-01-24T10:34:10Z"
+ "updated_at": "2025-01-24T10:34:45Z"
 }
