@@ -1,0 +1,25 @@
+{
+ "base": {
+  "repo": {
+   "name": "r-twang-feedstock"
+  }
+ },
+ "closed_at": null,
+ "created_at": "2025-01-24T15:37:03Z",
+ "draft": false,
+ "e_tag": "\"f59b6b02c99d8649f4f58a2f401192c353a8537d9817b18093b5ae5db471176c\"",
+ "head": {
+  "ref": "rebuild-r-base44_and_m2w64-ucrt-0-1_h58123f"
+ },
+ "html_url": "https://github.com/conda-forge/r-twang-feedstock/pull/4",
+ "id": 2297046699,
+ "labels": [],
+ "last_modified": null,
+ "mergeable": null,
+ "mergeable_state": "unknown",
+ "merged": false,
+ "merged_at": null,
+ "number": 4,
+ "state": "open",
+ "updated_at": "2025-01-24T15:37:03Z"
+}
