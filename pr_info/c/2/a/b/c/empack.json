@@ -501,10 +501,16 @@
   },
   {
    "PR": {
-    "__lazy_json__": "pr_json/2248917207.json"
+    "labels": [
+     {
+      "name": "bot-rerun"
+     }
+    ],
+    "number": 54,
+    "state": "closed"
    },
    "data": {
-    "bot_rerun": false,
+    "bot_rerun": 1737730638.0421948,
     "migrator_name": "NoarchPythonMinMigrator",
     "migrator_version": 1,
     "name": "noarch_python_min"
