@@ -1,27 +1,27 @@
 {
- "ETag": "W/\"286bb79a97d6ab36c8c1b2f10955ac91c4fa9b926ec7fe46572ca2123b619b1a\"",
- "Last-Modified": "Fri, 10 Jan 2025 17:44:29 GMT",
+ "ETag": "W/\"72a96a41de7bff98d46adddd403a206babf835df5855af37545d92c6845857a9\"",
+ "Last-Modified": "Fri, 24 Jan 2025 10:27:20 GMT",
  "base": {
   "repo": {
    "name": "klib-feedstock"
   }
  },
- "closed_at": null,
+ "closed_at": "2025-01-24T10:27:20Z",
  "created_at": "2025-01-10T17:42:41Z",
  "draft": false,
  "e_tag": "\"bad2673adde5d232bb403678f11ae54fde091cc31e7d991892d00485c996bd29\"",
  "head": {
-  "ref": "noarch_python_min-migration-1_hbe26c0"
+  "ref": "this_is_not_a_branch"
  },
  "html_url": "https://github.com/conda-forge/klib-feedstock/pull/38",
  "id": 2270983722,
  "labels": [],
  "last_modified": null,
- "mergeable": true,
- "mergeable_state": "clean",
- "merged": false,
- "merged_at": null,
+ "mergeable": null,
+ "mergeable_state": "unknown",
+ "merged": true,
+ "merged_at": "2025-01-24T10:27:20Z",
  "number": 38,
- "state": "open",
- "updated_at": "2025-01-10T17:44:29Z"
+ "state": "closed",
+ "updated_at": "2025-01-24T10:27:20Z"
 }
