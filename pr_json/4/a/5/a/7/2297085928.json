@@ -1,4 +1,6 @@
 {
+ "ETag": "W/\"aa08d9a1841a6ada12af97cd14ec69f8158106ce5c1b87da315e98eaadcb5b36\"",
+ "Last-Modified": "Fri, 24 Jan 2025 16:00:26 GMT",
  "base": {
   "repo": {
    "name": "sagemaker-jupyterlab-emr-extension-feedstock"
@@ -15,11 +17,11 @@
  "id": 2297085928,
  "labels": [],
  "last_modified": null,
- "mergeable": null,
- "mergeable_state": "unknown",
+ "mergeable": true,
+ "mergeable_state": "clean",
  "merged": false,
  "merged_at": null,
  "number": 35,
  "state": "open",
- "updated_at": "2025-01-24T15:58:45Z"
+ "updated_at": "2025-01-24T16:00:26Z"
 }
