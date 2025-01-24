@@ -1,15 +1,17 @@
 {
+ "ETag": "W/\"d0a1986b587a7c82391a0cec4bfcc68927d9f89b57d647af1d220dd24c883603\"",
+ "Last-Modified": "Fri, 24 Jan 2025 15:43:15 GMT",
  "base": {
   "repo": {
    "name": "r-modeltime-feedstock"
   }
  },
- "closed_at": null,
+ "closed_at": "2025-01-24T15:43:10Z",
  "created_at": "2025-01-24T15:35:40Z",
  "draft": false,
  "e_tag": "\"bd10ce94dc1d1b85e68df83d635d94f62c053f741c70752203203ae3ca1cfe06\"",
  "head": {
-  "ref": "rebuild-r-base44_and_m2w64-ucrt-0-1_h9f5827"
+  "ref": "this_is_not_a_branch"
  },
  "html_url": "https://github.com/conda-forge/r-modeltime-feedstock/pull/21",
  "id": 2297044315,
@@ -17,9 +19,9 @@
  "last_modified": null,
  "mergeable": null,
  "mergeable_state": "unknown",
- "merged": false,
- "merged_at": null,
+ "merged": true,
+ "merged_at": "2025-01-24T15:43:10Z",
  "number": 21,
- "state": "open",
- "updated_at": "2025-01-24T15:35:40Z"
+ "state": "closed",
+ "updated_at": "2025-01-24T15:43:15Z"
 }
