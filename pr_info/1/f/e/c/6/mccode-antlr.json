@@ -1,7 +1,26 @@
 {
+ "PRed": [
+  {
+   "PR": {
+    "__lazy_json__": "pr_json/8dcaed57-37f1-470d-a34b-9edd558d488b.json"
+   },
+   "data": {
+    "bot_rerun": false,
+    "migrator_name": "NoarchPythonMinMigrator",
+    "migrator_version": 1,
+    "name": "noarch_python_min"
+   },
+   "keys": [
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "name"
+   ]
+  }
+ ],
  "bad": false,
- "pre_pr_migrator_attempts": {
-  "noarch_python_min": 8
- },
- "pre_pr_migrator_status": {}
+ "pinning_version": "2025.01.23.20.59.37",
+ "pre_pr_migrator_attempts": {},
+ "pre_pr_migrator_status": {},
+ "smithy_version": "3.45.3"
 }
