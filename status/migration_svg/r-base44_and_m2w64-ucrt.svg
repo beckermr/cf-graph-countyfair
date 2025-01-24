@@ -433,9 +433,9 @@
 <!-- r&#45;biomod2 -->
 <g id="node36" class="node">
 <title>r&#45;biomod2</title>
-<g id="a_node36"><a xlink:href="https://github.com/conda-forge/r-biomod2-feedstock" xlink:title="r biomod2">
-<ellipse fill="#35b779" stroke="black" cx="408.21" cy="-90" rx="62.26" ry="18"/>
-<text text-anchor="middle" x="408.21" y="-85.33" font-family="Times,serif" font-size="14.00">r biomod2</text>
+<g id="a_node36"><a xlink:href="https://github.com/conda-forge/r-biomod2-feedstock/pull/11" xlink:title="r biomod2 ❎">
+<ellipse fill="#31688e" stroke="black" cx="408.21" cy="-90" rx="77.52" ry="18"/>
+<text text-anchor="middle" x="408.21" y="-85.33" font-family="Times,serif" font-size="14.00" fill="white">r biomod2 ❎</text>
 </a>
 </g>
 </g>
@@ -699,9 +699,9 @@
 <!-- r&#45;shapviz -->
 <g id="node59" class="node">
 <title>r&#45;shapviz</title>
-<g id="a_node59"><a xlink:href="https://github.com/conda-forge/r-shapviz-feedstock" xlink:title="r shapviz">
-<ellipse fill="#35b779" stroke="black" cx="1233.72" cy="-1158" rx="57" ry="18"/>
-<text text-anchor="middle" x="1233.72" y="-1153.33" font-family="Times,serif" font-size="14.00">r shapviz</text>
+<g id="a_node59"><a xlink:href="https://github.com/conda-forge/r-shapviz-feedstock/pull/8" xlink:title="r shapviz ❎">
+<ellipse fill="#31688e" stroke="black" cx="1233.72" cy="-1158" rx="72.25" ry="18"/>
+<text text-anchor="middle" x="1233.72" y="-1153.33" font-family="Times,serif" font-size="14.00" fill="white">r shapviz ❎</text>
 </a>
 </g>
 </g>
