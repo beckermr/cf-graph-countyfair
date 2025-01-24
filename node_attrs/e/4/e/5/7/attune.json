@@ -43,7 +43,7 @@
   },
   "package": {
    "name": "attune",
-   "version": "0.5.0"
+   "version": "0.5.1"
   },
   "requirements": {
    "host": [
@@ -66,8 +66,8 @@
   },
   "schema_version": 0,
   "source": {
-   "sha256": "8ba17659683d9c064074d4c630d2c153d9999e6a6c4f2eb1331bce2a18efd18a",
-   "url": "https://pypi.org/packages/source/a/attune/attune-0.5.0.tar.gz"
+   "sha256": "d67d3db7c255143c4d1d8915396b77acae2d8b7ac316d9fbe8a56cc2fe64c10a",
+   "url": "https://pypi.org/packages/source/a/attune/attune-0.5.1.tar.gz"
   },
   "test": {
    "commands": [
@@ -78,8 +78,8 @@
     "attune"
    ],
    "requires": [
-    "pip",
-    "python 3.9"
+    "python 3.9",
+    "pip"
    ]
   }
  },
@@ -146,7 +146,7 @@
   },
   "package": {
    "name": "attune",
-   "version": "0.5.0"
+   "version": "0.5.1"
   },
   "requirements": {
    "host": [
@@ -169,8 +169,8 @@
   },
   "schema_version": 0,
   "source": {
-   "sha256": "8ba17659683d9c064074d4c630d2c153d9999e6a6c4f2eb1331bce2a18efd18a",
-   "url": "https://pypi.org/packages/source/a/attune/attune-0.5.0.tar.gz"
+   "sha256": "d67d3db7c255143c4d1d8915396b77acae2d8b7ac316d9fbe8a56cc2fe64c10a",
+   "url": "https://pypi.org/packages/source/a/attune/attune-0.5.1.tar.gz"
   },
   "test": {
    "commands": [
@@ -181,8 +181,8 @@
     "attune"
    ],
    "requires": [
-    "pip",
-    "python 3.9"
+    "python 3.9",
+    "pip"
    ]
   }
  },
@@ -200,7 +200,7 @@
  "pr_info": {
   "__lazy_json__": "pr_info/attune.json"
  },
- "raw_meta_yaml": "{% set name = \"attune\" %}\n{% set version = \"0.5.0\" %}\n{% set sha256 = \"8ba17659683d9c064074d4c630d2c153d9999e6a6c4f2eb1331bce2a18efd18a\" %}\n\npackage:\n  name: {{ name|lower }}\n  version: {{ version }}\n\nsource:\n  url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz\n  sha256: {{ sha256 }}\n\nbuild:\n  entry_points:\n    - attune = attune._cli:main\n  noarch: python\n  number: 1\n  script: {{ PYTHON }} -m pip install . -vv\n\nrequirements:\n  host:\n    - python {{ python_min }}\n    - pip\n    - setuptools\n    - pytest-runner\n  run:\n    - python >={{ python_min }}\n    - WrightTools >=3.2.5\n    - numpy\n    - scipy\n    - matplotlib-base\n    - appdirs\n    - dateparser\n    - python-dateutil\n    - click\n\ntest:\n  imports:\n    - attune\n  commands:\n    - pip check\n    - attune --help\n  requires:\n    - pip  \n    - python {{ python_min }}\n\nabout:\n  home: https://github.com/wright-group/attune\n  license: MIT\n  license_family: MIT\n  license_file: LICENSE\n  summary: Tools for tuning optical parametric amplifiers and multidimensional spectrometers.\n\nextra:\n  recipe-maintainers:\n    - untzag\n    - ksunden\n    - darienmorrow\n    - kameyer226\n    - ddkohler\n",
+ "raw_meta_yaml": "{% set name = \"attune\" %}\n{% set version = \"0.5.1\" %}\n{% set sha256 = \"d67d3db7c255143c4d1d8915396b77acae2d8b7ac316d9fbe8a56cc2fe64c10a\" %}\n\npackage:\n  name: {{ name|lower }}\n  version: {{ version }}\n\nsource:\n  url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz\n  sha256: {{ sha256 }}\n\nbuild:\n  entry_points:\n    - attune = attune._cli:main\n  noarch: python\n  number: 1\n  script: {{ PYTHON }} -m pip install . -vv\n\nrequirements:\n  host:\n    - python {{ python_min }}\n    - pip\n    - setuptools\n    - pytest-runner\n  run:\n    - python >={{ python_min }}\n    - WrightTools >=3.2.5\n    - numpy\n    - scipy\n    - matplotlib-base\n    - appdirs\n    - dateparser\n    - python-dateutil\n    - click\n\ntest:\n  imports:\n    - attune\n  commands:\n    - pip check\n    - attune --help\n  requires:\n    - python {{ python_min }}\n    - pip  \n\nabout:\n  home: https://github.com/wright-group/attune\n  license: MIT\n  license_family: MIT\n  license_file: LICENSE\n  summary: Tools for tuning optical parametric amplifiers and multidimensional spectrometers.\n\nextra:\n  recipe-maintainers:\n    - untzag\n    - ksunden\n    - darienmorrow\n    - kameyer226\n    - ddkohler\n",
  "req": {
   "__set__": true,
   "elements": [
@@ -291,8 +291,8 @@
    ]
   }
  },
- "url": "https://pypi.org/packages/source/a/attune/attune-0.5.0.tar.gz",
- "version": "0.5.0",
+ "url": "https://pypi.org/packages/source/a/attune/attune-0.5.1.tar.gz",
+ "version": "0.5.1",
  "version_pr_info": {
   "__lazy_json__": "version_pr_info/attune.json"
  }
