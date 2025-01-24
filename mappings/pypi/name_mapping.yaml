@@ -31342,10 +31342,6 @@
   import_name: pixell
   mapping_source: regro-bot
   pypi_name: pixell
-- conda_name: pixi-diff-to-markdown
-  import_name: pixi_diff_to_markdown
-  mapping_source: regro-bot
-  pypi_name: pixi-diff-to-markdown
 - conda_name: pixi-kernel
   import_name: pixi_kernel
   mapping_source: regro-bot
