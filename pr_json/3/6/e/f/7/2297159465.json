@@ -1,15 +1,17 @@
 {
+ "ETag": "W/\"4a8a88fbcd2a9b5214e9a3a479ae6b0beeb861d9b770dee20deb9f67ccdecb59\"",
+ "Last-Modified": "Fri, 24 Jan 2025 16:49:28 GMT",
  "base": {
   "repo": {
    "name": "dydxprotocol-v4-proto-py-feedstock"
   }
  },
- "closed_at": null,
+ "closed_at": "2025-01-24T16:49:23Z",
  "created_at": "2025-01-24T16:41:52Z",
  "draft": false,
  "e_tag": "\"2210d7978bf136a00d8b9a336c6a89474482f973aac271ea04f30d6266e45eee\"",
  "head": {
-  "ref": "8.0.3_h68f058"
+  "ref": "this_is_not_a_branch"
  },
  "html_url": "https://github.com/conda-forge/dydxprotocol-v4-proto-py-feedstock/pull/16",
  "id": 2297159465,
@@ -17,9 +19,9 @@
  "last_modified": null,
  "mergeable": null,
  "mergeable_state": "unknown",
- "merged": false,
- "merged_at": null,
+ "merged": true,
+ "merged_at": "2025-01-24T16:49:23Z",
  "number": 16,
- "state": "open",
- "updated_at": "2025-01-24T16:41:52Z"
+ "state": "closed",
+ "updated_at": "2025-01-24T16:49:28Z"
 }
