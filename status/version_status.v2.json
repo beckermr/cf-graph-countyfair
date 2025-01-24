@@ -455,6 +455,7 @@
     "llama-index-core": "0.12.13",
     "llama-index-readers-file": "0.4.4",
     "llnl-sina": "1.15.0",
+    "logfire": "3.3.0",
     "mbuild": "1.1.1",
     "mc": "4.8.33",
     "metaflow": "2.13.7",
