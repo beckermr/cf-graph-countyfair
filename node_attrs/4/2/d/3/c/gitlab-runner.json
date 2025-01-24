@@ -30,7 +30,7 @@
    "number": "0",
    "script": [
     "pushd src/gitlab.com/gitlab-org/gitlab-runner",
-    "go install -v -ldflags \"-X gitlab.com/gitlab-org/gitlab-runner/common.VERSION='13.3.1' -X gitlab.com/gitlab-org/gitlab-runner/common.REVISION='$PKG_BUILDNUM' -X gitlab.com/gitlab-org/gitlab-runner/common.BRANCH='13-3-stable' -X gitlab.com/gitlab-org/gitlab-runner/common.BUILT='2025-01-23T14:33:52.242597' \" ."
+    "go install -v -ldflags \"-X gitlab.com/gitlab-org/gitlab-runner/common.VERSION='13.3.1' -X gitlab.com/gitlab-org/gitlab-runner/common.REVISION='$PKG_BUILDNUM' -X gitlab.com/gitlab-org/gitlab-runner/common.BRANCH='13-3-stable' -X gitlab.com/gitlab-org/gitlab-runner/common.BUILT='2025-01-24T15:32:10.501747' \" ."
    ]
   },
   "extra": {
@@ -96,9 +96,9 @@
    "number": "0",
    "script": [
     "pushd src/gitlab.com/gitlab-org/gitlab-runner",
-    "go install -v -ldflags \"-X gitlab.com/gitlab-org/gitlab-runner/common.VERSION='13.3.1' -X gitlab.com/gitlab-org/gitlab-runner/common.REVISION='$PKG_BUILDNUM' -X gitlab.com/gitlab-org/gitlab-runner/common.BRANCH='13-3-stable' -X gitlab.com/gitlab-org/gitlab-runner/common.BUILT='2025-01-23T14:33:52.242597' \" .",
-    "go install -v -ldflags \"-X gitlab.com/gitlab-org/gitlab-runner/common.VERSION='13.3.1' -X gitlab.com/gitlab-org/gitlab-runner/common.REVISION='$PKG_BUILDNUM' -X gitlab.com/gitlab-org/gitlab-runner/common.BRANCH='13-3-stable' -X gitlab.com/gitlab-org/gitlab-runner/common.BUILT='2025-01-23T14:33:52.271247' \" .",
-    "go install -v -ldflags \"-X gitlab.com/gitlab-org/gitlab-runner/common.VERSION='13.3.1' -X gitlab.com/gitlab-org/gitlab-runner/common.REVISION='$PKG_BUILDNUM' -X gitlab.com/gitlab-org/gitlab-runner/common.BRANCH='13-3-stable' -X gitlab.com/gitlab-org/gitlab-runner/common.BUILT='2025-01-23T14:33:52.309965' \" ."
+    "go install -v -ldflags \"-X gitlab.com/gitlab-org/gitlab-runner/common.VERSION='13.3.1' -X gitlab.com/gitlab-org/gitlab-runner/common.REVISION='$PKG_BUILDNUM' -X gitlab.com/gitlab-org/gitlab-runner/common.BRANCH='13-3-stable' -X gitlab.com/gitlab-org/gitlab-runner/common.BUILT='2025-01-24T15:32:10.501747' \" .",
+    "go install -v -ldflags \"-X gitlab.com/gitlab-org/gitlab-runner/common.VERSION='13.3.1' -X gitlab.com/gitlab-org/gitlab-runner/common.REVISION='$PKG_BUILDNUM' -X gitlab.com/gitlab-org/gitlab-runner/common.BRANCH='13-3-stable' -X gitlab.com/gitlab-org/gitlab-runner/common.BUILT='2025-01-24T15:32:10.563966' \" .",
+    "go install -v -ldflags \"-X gitlab.com/gitlab-org/gitlab-runner/common.VERSION='13.3.1' -X gitlab.com/gitlab-org/gitlab-runner/common.REVISION='$PKG_BUILDNUM' -X gitlab.com/gitlab-org/gitlab-runner/common.BRANCH='13-3-stable' -X gitlab.com/gitlab-org/gitlab-runner/common.BUILT='2025-01-24T15:32:10.620586' \" ."
    ]
   },
   "extra": {
@@ -155,7 +155,7 @@
    "number": "0",
    "script": [
     "pushd src/gitlab.com/gitlab-org/gitlab-runner",
-    "go install -v -ldflags \"-X gitlab.com/gitlab-org/gitlab-runner/common.VERSION='13.3.1' -X gitlab.com/gitlab-org/gitlab-runner/common.REVISION='$PKG_BUILDNUM' -X gitlab.com/gitlab-org/gitlab-runner/common.BRANCH='13-3-stable' -X gitlab.com/gitlab-org/gitlab-runner/common.BUILT='2025-01-23T14:33:52.271247' \" ."
+    "go install -v -ldflags \"-X gitlab.com/gitlab-org/gitlab-runner/common.VERSION='13.3.1' -X gitlab.com/gitlab-org/gitlab-runner/common.REVISION='$PKG_BUILDNUM' -X gitlab.com/gitlab-org/gitlab-runner/common.BRANCH='13-3-stable' -X gitlab.com/gitlab-org/gitlab-runner/common.BUILT='2025-01-24T15:32:10.563966' \" ."
    ]
   },
   "extra": {
@@ -290,7 +290,7 @@
    "number": "0",
    "script": [
     "pushd src/gitlab.com/gitlab-org/gitlab-runner",
-    "go install -v -ldflags \"-X gitlab.com/gitlab-org/gitlab-runner/common.VERSION='13.3.1' -X gitlab.com/gitlab-org/gitlab-runner/common.REVISION='$PKG_BUILDNUM' -X gitlab.com/gitlab-org/gitlab-runner/common.BRANCH='13-3-stable' -X gitlab.com/gitlab-org/gitlab-runner/common.BUILT='2025-01-23T14:33:52.309965' \" ."
+    "go install -v -ldflags \"-X gitlab.com/gitlab-org/gitlab-runner/common.VERSION='13.3.1' -X gitlab.com/gitlab-org/gitlab-runner/common.REVISION='$PKG_BUILDNUM' -X gitlab.com/gitlab-org/gitlab-runner/common.BRANCH='13-3-stable' -X gitlab.com/gitlab-org/gitlab-runner/common.BUILT='2025-01-24T15:32:10.620586' \" ."
    ]
   },
   "extra": {
