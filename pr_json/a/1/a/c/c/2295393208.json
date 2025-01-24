@@ -1,15 +1,17 @@
 {
+ "ETag": "W/\"aabb795ef609a78f5bd2835bca332b647080bf0e9f7543c3ad98f7170b0e3a4d\"",
+ "Last-Modified": "Fri, 24 Jan 2025 12:23:08 GMT",
  "base": {
   "repo": {
    "name": "activity-browser-feedstock"
   }
  },
- "closed_at": null,
+ "closed_at": "2025-01-24T12:23:08Z",
  "created_at": "2025-01-23T21:06:06Z",
  "draft": false,
  "e_tag": "\"a52738189a66800a24dc147a867d5e938d92ae76c36bafdfe41b5cbb98ed90a9\"",
  "head": {
-  "ref": "2.11.1_hcbc329"
+  "ref": "this_is_not_a_branch"
  },
  "html_url": "https://github.com/conda-forge/activity-browser-feedstock/pull/46",
  "id": 2295393208,
@@ -17,9 +19,9 @@
  "last_modified": null,
  "mergeable": null,
  "mergeable_state": "unknown",
- "merged": false,
- "merged_at": null,
+ "merged": true,
+ "merged_at": "2025-01-24T12:23:08Z",
  "number": 46,
- "state": "open",
- "updated_at": "2025-01-23T21:06:06Z"
+ "state": "closed",
+ "updated_at": "2025-01-24T12:23:08Z"
 }
