@@ -1,10 +1,12 @@
 {
+ "ETag": "W/\"6972393e273bebb304a15792aa5279a1662b78fdce2588404c05da5a0796a367\"",
+ "Last-Modified": "Fri, 24 Jan 2025 13:03:18 GMT",
  "base": {
   "repo": {
    "name": "cymysql-feedstock"
   }
  },
- "closed_at": null,
+ "closed_at": "2025-01-24T13:03:18Z",
  "created_at": "2025-01-23T16:35:33Z",
  "draft": false,
  "e_tag": "\"b7b6e70cf6c9ec3a2d8ce6db9e104ed90205d73f9256f8cb7c2d99ff5bf939d8\"",
@@ -15,11 +17,11 @@
  "id": 2294923814,
  "labels": [],
  "last_modified": null,
- "mergeable": null,
- "mergeable_state": "unknown",
+ "mergeable": true,
+ "mergeable_state": "clean",
  "merged": false,
  "merged_at": null,
  "number": 28,
- "state": "open",
- "updated_at": "2025-01-23T16:35:33Z"
+ "state": "closed",
+ "updated_at": "2025-01-24T13:03:18Z"
 }
