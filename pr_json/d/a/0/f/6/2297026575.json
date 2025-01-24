@@ -1,4 +1,6 @@
 {
+ "ETag": "W/\"ee8bd7e526bb1011e1617cc2e2f4a184c99c0cff6d980d964c52789ede67bd06\"",
+ "Last-Modified": "Fri, 24 Jan 2025 15:28:53 GMT",
  "base": {
   "repo": {
    "name": "ogs-feedstock"
@@ -15,11 +17,11 @@
  "id": 2297026575,
  "labels": [],
  "last_modified": null,
- "mergeable": null,
- "mergeable_state": "unknown",
+ "mergeable": true,
+ "mergeable_state": "unstable",
  "merged": false,
  "merged_at": null,
  "number": 8,
  "state": "open",
- "updated_at": "2025-01-24T15:27:14Z"
+ "updated_at": "2025-01-24T15:28:53Z"
 }
