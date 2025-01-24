@@ -1,6 +1,6 @@
 {
- "ETag": "W/\"92e3e802d052942784b5adae121cfb5192f8b31aab9c6a6ea24a8c6393dc7c0d\"",
- "Last-Modified": "Thu, 23 Jan 2025 13:53:02 GMT",
+ "ETag": "W/\"380fb7e927d83ae1ca774212b5da516106097e77e89e566dde34c65f86b8ac7a\"",
+ "Last-Modified": "Fri, 24 Jan 2025 12:22:45 GMT",
  "base": {
   "repo": {
    "name": "vizro-feedstock"
@@ -23,5 +23,5 @@
  "merged_at": null,
  "number": 29,
  "state": "open",
- "updated_at": "2025-01-23T13:53:02Z"
+ "updated_at": "2025-01-24T12:22:45Z"
 }
