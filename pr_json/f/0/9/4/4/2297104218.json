@@ -1,0 +1,25 @@
+{
+ "base": {
+  "repo": {
+   "name": "attune-feedstock"
+  }
+ },
+ "closed_at": null,
+ "created_at": "2025-01-24T16:08:54Z",
+ "draft": false,
+ "e_tag": "\"eb128f860981435386005843515922c9db10a6038e1f66adf97c869f11506d61\"",
+ "head": {
+  "ref": "noarch_python_min-migration-1_h938ab8"
+ },
+ "html_url": "https://github.com/conda-forge/attune-feedstock/pull/18",
+ "id": 2297104218,
+ "labels": [],
+ "last_modified": null,
+ "mergeable": null,
+ "mergeable_state": "unknown",
+ "merged": false,
+ "merged_at": null,
+ "number": 18,
+ "state": "open",
+ "updated_at": "2025-01-24T16:08:54Z"
+}
