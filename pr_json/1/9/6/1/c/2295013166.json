@@ -1,10 +1,12 @@
 {
+ "ETag": "W/\"90b44d5df297830e9ad8ff168382685e0ee32e17dace57b6cc840b1d6b19989d\"",
+ "Last-Modified": "Fri, 24 Jan 2025 13:06:07 GMT",
  "base": {
   "repo": {
    "name": "elasticsearch-feedstock"
   }
  },
- "closed_at": null,
+ "closed_at": "2025-01-24T13:06:07Z",
  "created_at": "2025-01-23T17:20:17Z",
  "draft": false,
  "e_tag": "\"3fd262df4cf3be237f42e9c75a1cce13c0bf41e72b205ed1014857430a5c0028\"",
@@ -20,6 +22,6 @@
  "merged": false,
  "merged_at": null,
  "number": 108,
- "state": "open",
- "updated_at": "2025-01-23T17:20:17Z"
+ "state": "closed",
+ "updated_at": "2025-01-24T13:06:07Z"
 }
