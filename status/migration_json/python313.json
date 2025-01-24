@@ -8443,6 +8443,8 @@
     "ecflow": {
       "immediate_children": [],
       "num_descendants": 0,
+      "pr_status": "unknown",
+      "pr_url": "https://github.com/conda-forge/ecflow-feedstock/pull/84",
       "pre_pr_migrator_status": ""
     },
     "ecmwflibs": {
@@ -35982,6 +35984,8 @@
     "ssh2-python": {
       "immediate_children": [],
       "num_descendants": 0,
+      "pr_status": "unknown",
+      "pr_url": "https://github.com/conda-forge/ssh2-python-feedstock/pull/47",
       "pre_pr_migrator_status": ""
     },
     "ssh_ipykernel_interrupt": {
@@ -41802,10 +41806,8 @@
     "ada-cpp"
   ],
   "awaiting-pr": [
-    "ssh2-python",
     "itk-meshtopolydata",
     "faster-coco-eval",
-    "ecflow",
     "tomviz"
   ],
   "bot-error": [
@@ -43303,6 +43305,7 @@
     "sysv_ipc",
     "surelog",
     "superlance",
+    "ssh2-python",
     "ssh-python",
     "srt",
     "sqloxide",
@@ -43853,6 +43856,7 @@
     "gudhi",
     "fmipp",
     "fenics",
+    "ecflow",
     "ecell4_base",
     "dionysus",
     "desres-msys",
