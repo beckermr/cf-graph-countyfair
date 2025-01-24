@@ -59698,7 +59698,6 @@
   },
   "awaiting-parents": [
     "frv",
-    "r-cmprskcoxmsm",
     "r-modeltime.ensemble",
     "r-modeltime.resample",
     "r-tidyconsultant",
@@ -59714,6 +59713,7 @@
     "m2w64-jq"
   ],
   "awaiting-pr": [
+    "r-cmprskcoxmsm",
     "r-ecospat",
     "r-tidybins",
     "b3sum"
@@ -63126,6 +63126,7 @@
     "r-turboem",
     "r-turfr",
     "r-turner",
+    "r-twang",
     "r-twdtw",
     "r-tweedie",
     "r-tweenr",
@@ -63438,7 +63439,6 @@
     "r-mikropml",
     "r-modeltime",
     "r-shapviz",
-    "r-twang",
     "r-volumodel",
     "reasonable",
     "rpy2",
