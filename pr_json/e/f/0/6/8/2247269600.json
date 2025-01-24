@@ -1,17 +1,17 @@
 {
- "ETag": "W/\"096b05ddc5678837835ef070d5cd3ef5f7ca26748316ba0c3b85f957aa672bee\"",
- "Last-Modified": "Fri, 24 Jan 2025 16:23:25 GMT",
+ "ETag": "W/\"064a12cab22315d037cc767351d589c356c691b5c087d4bfa19df6a2b54044ca\"",
+ "Last-Modified": "Fri, 24 Jan 2025 16:24:02 GMT",
  "base": {
   "repo": {
    "name": "arcticdb-feedstock"
   }
  },
- "closed_at": null,
+ "closed_at": "2025-01-24T16:24:00Z",
  "created_at": "2024-12-20T19:25:15Z",
  "draft": false,
  "e_tag": "\"76996b024275f5b2590b3222666e7695013980ffcbec83f2267c6e12013ee133\"",
  "head": {
-  "ref": "this_is_not_a_branch"
+  "ref": "rebuild-python313-0-1_h6863a2"
  },
  "html_url": "https://github.com/conda-forge/arcticdb-feedstock/pull/364",
  "id": 2247269600,
@@ -32,6 +32,6 @@
  "merged": false,
  "merged_at": null,
  "number": 364,
- "state": "open",
- "updated_at": "2025-01-24T16:23:25Z"
+ "state": "closed",
+ "updated_at": "2025-01-24T16:24:02Z"
 }
