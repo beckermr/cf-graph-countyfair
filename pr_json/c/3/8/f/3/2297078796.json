@@ -1,0 +1,25 @@
+{
+ "base": {
+  "repo": {
+   "name": "pyquil-feedstock"
+  }
+ },
+ "closed_at": null,
+ "created_at": "2025-01-24T15:55:05Z",
+ "draft": false,
+ "e_tag": "\"b25b566d64df8c4461c9c765a20968bd041fb07d68d5defbe48f4445f39b6b91\"",
+ "head": {
+  "ref": "4.16.0_he312db"
+ },
+ "html_url": "https://github.com/conda-forge/pyquil-feedstock/pull/96",
+ "id": 2297078796,
+ "labels": [],
+ "last_modified": null,
+ "mergeable": null,
+ "mergeable_state": "unknown",
+ "merged": false,
+ "merged_at": null,
+ "number": 96,
+ "state": "open",
+ "updated_at": "2025-01-24T15:55:05Z"
+}
