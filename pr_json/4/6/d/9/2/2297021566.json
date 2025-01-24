@@ -1,0 +1,25 @@
+{
+ "base": {
+  "repo": {
+   "name": "open3d-feedstock"
+  }
+ },
+ "closed_at": null,
+ "created_at": "2025-01-24T15:24:28Z",
+ "draft": false,
+ "e_tag": "\"f4dd599e130c309705b46be6b63c7525804d1d8419144111f7d1e9c5be45829b\"",
+ "head": {
+  "ref": "rebuild-xz_to_liblzma_devel-0-1_ha8a15d"
+ },
+ "html_url": "https://github.com/conda-forge/open3d-feedstock/pull/24",
+ "id": 2297021566,
+ "labels": [],
+ "last_modified": null,
+ "mergeable": null,
+ "mergeable_state": "unknown",
+ "merged": false,
+ "merged_at": null,
+ "number": 24,
+ "state": "open",
+ "updated_at": "2025-01-24T15:24:28Z"
+}
