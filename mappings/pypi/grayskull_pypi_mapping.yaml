@@ -30838,11 +30838,6 @@ minimal-snowplow-tracker:
   import_name: snowplow_tracker
   mapping_source: regro-bot
   pypi_name: minimal-snowplow-tracker
-minimalkv:
-  conda_name: minimalkv
-  import_name: minimalkv
-  mapping_source: regro-bot
-  pypi_name: minimalkv
 minimalmodbus:
   conda_name: minimalmodbus
   import_name: minimalmodbus
