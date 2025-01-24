@@ -1,10 +1,12 @@
 {
+ "ETag": "W/\"916b98a198a9e37af86fc37f9d3c0d23fc4c87b5b7a63be7e202a4a0418d4f79\"",
+ "Last-Modified": "Fri, 24 Jan 2025 13:01:15 GMT",
  "base": {
   "repo": {
    "name": "azure-mgmt-web-feedstock"
   }
  },
- "closed_at": null,
+ "closed_at": "2025-01-24T13:01:14Z",
  "created_at": "2025-01-23T19:42:23Z",
  "draft": false,
  "e_tag": "\"2cf170e93abb0a800fde09b994c794aa77a92ddda095a8bfb9681b6ce851a39f\"",
@@ -15,11 +17,11 @@
  "id": 2295263547,
  "labels": [],
  "last_modified": null,
- "mergeable": null,
- "mergeable_state": "unknown",
+ "mergeable": true,
+ "mergeable_state": "unstable",
  "merged": false,
  "merged_at": null,
  "number": 18,
- "state": "open",
- "updated_at": "2025-01-23T19:42:23Z"
+ "state": "closed",
+ "updated_at": "2025-01-24T13:01:15Z"
 }
