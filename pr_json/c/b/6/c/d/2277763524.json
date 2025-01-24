@@ -1,12 +1,12 @@
 {
- "ETag": "W/\"cb9f44c59d3e6c2f6eb38f6a263d532957d3b97a38d10d743660a1eaabd0a8b1\"",
- "Last-Modified": "Tue, 14 Jan 2025 20:51:00 GMT",
+ "ETag": "W/\"0d00edc1940c4c6326ba5ce752baffb6d771e0ffa8def85f45c0ce7d95617159\"",
+ "Last-Modified": "Fri, 24 Jan 2025 10:19:36 GMT",
  "base": {
   "repo": {
    "name": "archinfo-feedstock"
   }
  },
- "closed_at": null,
+ "closed_at": "2025-01-24T10:19:36Z",
  "created_at": "2025-01-14T20:49:25Z",
  "draft": false,
  "e_tag": "\"6171a29576f59f025759b2ab8b77d16b08c17ae5b3e90f4b2ac1b69dd5f09175\"",
@@ -17,11 +17,11 @@
  "id": 2277763524,
  "labels": [],
  "last_modified": null,
- "mergeable": true,
- "mergeable_state": "clean",
+ "mergeable": null,
+ "mergeable_state": "unknown",
  "merged": false,
  "merged_at": null,
  "number": 73,
- "state": "open",
- "updated_at": "2025-01-14T20:51:00Z"
+ "state": "closed",
+ "updated_at": "2025-01-24T10:19:36Z"
 }
