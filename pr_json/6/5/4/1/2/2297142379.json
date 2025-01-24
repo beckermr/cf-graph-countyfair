@@ -1,0 +1,25 @@
+{
+ "base": {
+  "repo": {
+   "name": "moka-py-feedstock"
+  }
+ },
+ "closed_at": null,
+ "created_at": "2025-01-24T16:31:27Z",
+ "draft": false,
+ "e_tag": "\"75ef9c3dedd1c657ba709679b380f607b641534733f2ccc88614d72ed73d0b7a\"",
+ "head": {
+  "ref": "0.1.16_h0a5432"
+ },
+ "html_url": "https://github.com/conda-forge/moka-py-feedstock/pull/2",
+ "id": 2297142379,
+ "labels": [],
+ "last_modified": null,
+ "mergeable": null,
+ "mergeable_state": "unknown",
+ "merged": false,
+ "merged_at": null,
+ "number": 2,
+ "state": "open",
+ "updated_at": "2025-01-24T16:31:27Z"
+}
