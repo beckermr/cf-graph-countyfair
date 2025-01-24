@@ -1,0 +1,25 @@
+{
+ "base": {
+  "repo": {
+   "name": "r-embed-feedstock"
+  }
+ },
+ "closed_at": null,
+ "created_at": "2025-01-24T16:32:36Z",
+ "draft": false,
+ "e_tag": "\"5f700e30dbea5ee7c585d47862f6d8d8a39dd157ece29e11abe4c8233d2fb10e\"",
+ "head": {
+  "ref": "1.1.5_h7d925f"
+ },
+ "html_url": "https://github.com/conda-forge/r-embed-feedstock/pull/10",
+ "id": 2297144331,
+ "labels": [],
+ "last_modified": null,
+ "mergeable": null,
+ "mergeable_state": "unknown",
+ "merged": false,
+ "merged_at": null,
+ "number": 10,
+ "state": "open",
+ "updated_at": "2025-01-24T16:32:36Z"
+}
