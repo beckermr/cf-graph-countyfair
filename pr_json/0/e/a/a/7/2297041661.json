@@ -1,15 +1,17 @@
 {
+ "ETag": "W/\"9dabe875d609b927554e9a9d12f0d5fb60f385e1ce76a9f4e87d22288d32431d\"",
+ "Last-Modified": "Fri, 24 Jan 2025 15:43:10 GMT",
  "base": {
   "repo": {
    "name": "r-autostats-feedstock"
   }
  },
- "closed_at": null,
+ "closed_at": "2025-01-24T15:43:06Z",
  "created_at": "2025-01-24T15:34:33Z",
  "draft": false,
  "e_tag": "\"3045c3ffb943b701b87104d48ea235d49cb4f0f6aa79dd5cc748f045bb6412e9\"",
  "head": {
-  "ref": "rebuild-r-base44_and_m2w64-ucrt-0-1_hc43bb8"
+  "ref": "this_is_not_a_branch"
  },
  "html_url": "https://github.com/conda-forge/r-autostats-feedstock/pull/6",
  "id": 2297041661,
@@ -17,9 +19,9 @@
  "last_modified": null,
  "mergeable": null,
  "mergeable_state": "unknown",
- "merged": false,
- "merged_at": null,
+ "merged": true,
+ "merged_at": "2025-01-24T15:43:06Z",
  "number": 6,
- "state": "open",
- "updated_at": "2025-01-24T15:34:33Z"
+ "state": "closed",
+ "updated_at": "2025-01-24T15:43:10Z"
 }
