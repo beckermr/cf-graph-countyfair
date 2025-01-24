@@ -11,7 +11,9 @@
   "conda_build": {
    "pkg_format": "2"
   },
+  "conda_build_tool": "rattler-build",
   "conda_forge_output_validation": true,
+  "conda_install_tool": "pixi",
   "github": {
    "branch_name": "main",
    "tooling_branch_name": "main"
@@ -26,15 +28,17 @@
    "doc_url": "http://www.freetds.org/docs.html",
    "home": "http://www.freetds.org/",
    "license": "LGPL-2.0-only",
-   "license_family": "LGPL",
+   "license_family": "LGPL-2.0-only",
    "license_file": "COPYING_LIB.txt",
    "summary": "FreeTDS is a free implementation of Sybase's DB-Library, CT-Library, and ODBC libraries"
   },
   "build": {
    "number": "0",
-   "run_exports": [
-    "freetds"
-   ]
+   "run_exports": {
+    "weak": [
+     "freetds"
+    ]
+   }
   },
   "extra": {
    "recipe-maintainers": [
@@ -42,18 +46,58 @@
     "xhochy"
    ]
   },
+  "outputs": [
+   {
+    "build": {
+     "strong": [],
+     "weak": [
+      "freetds"
+     ]
+    },
+    "name": "freetds",
+    "requirements": {
+     "build": [
+      "c_compiler_stub",
+      "c_stdlib_stub",
+      "pkg-config",
+      "automake 1.16.*",
+      "gettext-tools",
+      "gnuconfig",
+      "make",
+      "libtool"
+     ],
+     "host": [
+      "openssl",
+      "unixodbc",
+      "krb5",
+      "readline",
+      "libiconv"
+     ],
+     "run": [
+      "krb5"
+     ]
+    },
+    "tests": [
+     {
+      "script": "tsql -C"
+     }
+    ]
+   }
+  ],
   "package": {
    "name": "freetds",
-   "version": "1.4.24"
+   "version": "1.4.26"
   },
   "requirements": {
    "build": [
-    "gnuconfig",
     "c_compiler_stub",
     "c_stdlib_stub",
-    "libtool",
+    "pkg-config",
+    "automake 1.16.*",
+    "gettext-tools",
+    "gnuconfig",
     "make",
-    "pkg-config"
+    "libtool"
    ],
    "host": [
     "openssl",
@@ -66,23 +110,20 @@
     "krb5"
    ]
   },
-  "schema_version": 0,
+  "schema_version": 1,
   "source": {
-   "sha256": "07cea1b457f8fd5bad75bc342371b7e7e092f9247a813dc7b627c9235dfdb642",
-   "url": "http://www.freetds.org/files/stable/freetds-1.4.24.tar.bz2"
-  },
-  "test": {
-   "commands": [
-    "tsql -C"
-   ]
+   "sha256": "f555ac2bf31d99aad23561ac9558d8676eae1e01ace6ee7807d3af1dcc26d534",
+   "url": "https://www.freetds.org/files/stable/freetds-1.4.26.tar.gz"
   }
  },
  "linux_64_requirements": {
   "build": {
    "__set__": true,
    "elements": [
+    "automake",
     "c_compiler_stub",
     "c_stdlib_stub",
+    "gettext-tools",
     "gnuconfig",
     "libtool",
     "make",
@@ -116,15 +157,17 @@
    "doc_url": "http://www.freetds.org/docs.html",
    "home": "http://www.freetds.org/",
    "license": "LGPL-2.0-only",
-   "license_family": "LGPL",
+   "license_family": "LGPL-2.0-only",
    "license_file": "COPYING_LIB.txt",
    "summary": "FreeTDS is a free implementation of Sybase's DB-Library, CT-Library, and ODBC libraries"
   },
   "build": {
    "number": "0",
-   "run_exports": [
-    "freetds"
-   ]
+   "run_exports": {
+    "weak": [
+     "freetds"
+    ]
+   }
   },
   "extra": {
    "recipe-maintainers": [
@@ -132,79 +175,166 @@
     "xhochy"
    ]
   },
+  "outputs": [
+   {
+    "build": {
+     "strong": [],
+     "weak": [
+      "freetds"
+     ]
+    },
+    "name": "freetds",
+    "requirements": {
+     "build": [
+      "c_compiler_stub",
+      "c_stdlib_stub",
+      "pkg-config",
+      "automake 1.16.*",
+      "gettext-tools",
+      "gnuconfig",
+      "make",
+      "libtool"
+     ],
+     "host": [
+      "openssl",
+      "unixodbc",
+      "krb5",
+      "readline",
+      "libiconv"
+     ],
+     "run": [
+      "krb5"
+     ]
+    },
+    "tests": [
+     {
+      "script": "tsql -C"
+     }
+    ]
+   },
+   {
+    "build": {
+     "strong": [],
+     "weak": [
+      "freetds"
+     ]
+    },
+    "name": "freetds",
+    "requirements": {
+     "build": [
+      "c_compiler_stub",
+      "c_stdlib_stub",
+      "pkg-config",
+      "automake 1.16.*",
+      "gettext-tools",
+      "gnuconfig",
+      "make",
+      "libtool"
+     ],
+     "host": [
+      "openssl",
+      "unixodbc",
+      "krb5",
+      "readline",
+      "libiconv"
+     ],
+     "run": [
+      "krb5"
+     ]
+    },
+    "tests": [
+     {
+      "script": "tsql -C"
+     }
+    ]
+   },
+   {
+    "build": {
+     "strong": [],
+     "weak": [
+      "freetds"
+     ]
+    },
+    "name": "freetds",
+    "requirements": {
+     "build": [
+      "c_compiler_stub",
+      "c_stdlib_stub",
+      "pkg-config",
+      "automake 1.16.*",
+      "gettext-tools",
+      "gnuconfig",
+      "make",
+      "libtool"
+     ],
+     "host": [
+      "openssl",
+      "unixodbc",
+      "krb5",
+      "readline",
+      "libiconv"
+     ],
+     "run": [
+      "krb5"
+     ]
+    },
+    "tests": [
+     {
+      "script": "tsql -C"
+     }
+    ]
+   },
+   {
+    "build": {
+     "strong": [],
+     "weak": [
+      "freetds"
+     ]
+    },
+    "name": "freetds",
+    "requirements": {
+     "build": [
+      "c_compiler_stub",
+      "c_stdlib_stub",
+      "pkg-config",
+      "automake 1.16.*",
+      "gettext-tools",
+      "gnuconfig",
+      "make",
+      "libtool"
+     ],
+     "host": [
+      "openssl",
+      "unixodbc",
+      "krb5",
+      "readline",
+      "libiconv"
+     ],
+     "run": [
+      "krb5"
+     ]
+    },
+    "tests": [
+     {
+      "script": "tsql -C"
+     }
+    ]
+   }
+  ],
   "package": {
    "name": "freetds",
-   "version": "1.4.24"
+   "version": "1.4.26"
   },
   "requirements": {
    "build": [
-    "gnuconfig",
     "c_compiler_stub",
     "c_stdlib_stub",
-    "libtool",
-    "make",
     "pkg-config",
-    "cmake",
-    "ninja"
-   ],
-   "host": [
-    "openssl",
-    "unixodbc",
-    "krb5",
-    "readline",
-    "libiconv",
-    "perl"
-   ],
-   "run": [
-    "krb5"
-   ]
-  },
-  "schema_version": 0,
-  "source": {
-   "sha256": "07cea1b457f8fd5bad75bc342371b7e7e092f9247a813dc7b627c9235dfdb642",
-   "url": "http://www.freetds.org/files/stable/freetds-1.4.24.tar.bz2"
-  },
-  "test": {
-   "commands": [
-    "tsql -C"
-   ]
-  }
- },
- "name": "freetds",
- "osx_64_meta_yaml": {
-  "about": {
-   "dev_url": "https://github.com/FreeTDS/freetds",
-   "doc_url": "http://www.freetds.org/docs.html",
-   "home": "http://www.freetds.org/",
-   "license": "LGPL-2.0-only",
-   "license_family": "LGPL",
-   "license_file": "COPYING_LIB.txt",
-   "summary": "FreeTDS is a free implementation of Sybase's DB-Library, CT-Library, and ODBC libraries"
-  },
-  "build": {
-   "number": "0",
-   "run_exports": [
-    "freetds"
-   ]
-  },
-  "extra": {
-   "recipe-maintainers": [
-    "mariusvniekerk",
-    "xhochy"
-   ]
-  },
-  "package": {
-   "name": "freetds",
-   "version": "1.4.24"
-  },
-  "requirements": {
-   "build": [
+    "automake 1.16.*",
+    "gettext-tools",
     "gnuconfig",
-    "c_compiler_stub",
-    "c_stdlib_stub",
-    "libtool",
     "make",
-    "pkg-config"
+    "libtool"
    ],
    "host": [
     "openssl",
@@ -217,23 +347,115 @@
     "krb5"
    ]
   },
-  "schema_version": 0,
+  "schema_version": 1,
   "source": {
-   "sha256": "07cea1b457f8fd5bad75bc342371b7e7e092f9247a813dc7b627c9235dfdb642",
-   "url": "http://www.freetds.org/files/stable/freetds-1.4.24.tar.bz2"
+   "sha256": "f555ac2bf31d99aad23561ac9558d8676eae1e01ace6ee7807d3af1dcc26d534",
+   "url": "https://www.freetds.org/files/stable/freetds-1.4.26.tar.gz"
+  }
+ },
+ "name": "freetds",
+ "osx_64_meta_yaml": {
+  "about": {
+   "dev_url": "https://github.com/FreeTDS/freetds",
+   "doc_url": "http://www.freetds.org/docs.html",
+   "home": "http://www.freetds.org/",
+   "license": "LGPL-2.0-only",
+   "license_family": "LGPL-2.0-only",
+   "license_file": "COPYING_LIB.txt",
+   "summary": "FreeTDS is a free implementation of Sybase's DB-Library, CT-Library, and ODBC libraries"
   },
-  "test": {
-   "commands": [
-    "tsql -C"
+  "build": {
+   "number": "0",
+   "run_exports": {
+    "weak": [
+     "freetds"
+    ]
+   }
+  },
+  "extra": {
+   "recipe-maintainers": [
+    "mariusvniekerk",
+    "xhochy"
    ]
+  },
+  "outputs": [
+   {
+    "build": {
+     "strong": [],
+     "weak": [
+      "freetds"
+     ]
+    },
+    "name": "freetds",
+    "requirements": {
+     "build": [
+      "c_compiler_stub",
+      "c_stdlib_stub",
+      "pkg-config",
+      "automake 1.16.*",
+      "gettext-tools",
+      "gnuconfig",
+      "make",
+      "libtool"
+     ],
+     "host": [
+      "openssl",
+      "unixodbc",
+      "krb5",
+      "readline",
+      "libiconv"
+     ],
+     "run": [
+      "krb5"
+     ]
+    },
+    "tests": [
+     {
+      "script": "tsql -C"
+     }
+    ]
+   }
+  ],
+  "package": {
+   "name": "freetds",
+   "version": "1.4.26"
+  },
+  "requirements": {
+   "build": [
+    "c_compiler_stub",
+    "c_stdlib_stub",
+    "pkg-config",
+    "automake 1.16.*",
+    "gettext-tools",
+    "gnuconfig",
+    "make",
+    "libtool"
+   ],
+   "host": [
+    "openssl",
+    "unixodbc",
+    "krb5",
+    "readline",
+    "libiconv"
+   ],
+   "run": [
+    "krb5"
+   ]
+  },
+  "schema_version": 1,
+  "source": {
+   "sha256": "f555ac2bf31d99aad23561ac9558d8676eae1e01ace6ee7807d3af1dcc26d534",
+   "url": "https://www.freetds.org/files/stable/freetds-1.4.26.tar.gz"
   }
  },
  "osx_64_requirements": {
   "build": {
    "__set__": true,
    "elements": [
+    "automake",
     "c_compiler_stub",
     "c_stdlib_stub",
+    "gettext-tools",
     "gnuconfig",
     "libtool",
     "make",
@@ -267,15 +489,17 @@
    "doc_url": "http://www.freetds.org/docs.html",
    "home": "http://www.freetds.org/",
    "license": "LGPL-2.0-only",
-   "license_family": "LGPL",
+   "license_family": "LGPL-2.0-only",
    "license_file": "COPYING_LIB.txt",
    "summary": "FreeTDS is a free implementation of Sybase's DB-Library, CT-Library, and ODBC libraries"
   },
   "build": {
    "number": "0",
-   "run_exports": [
-    "freetds"
-   ]
+   "run_exports": {
+    "weak": [
+     "freetds"
+    ]
+   }
   },
   "extra": {
    "recipe-maintainers": [
@@ -283,18 +507,58 @@
     "xhochy"
    ]
   },
+  "outputs": [
+   {
+    "build": {
+     "strong": [],
+     "weak": [
+      "freetds"
+     ]
+    },
+    "name": "freetds",
+    "requirements": {
+     "build": [
+      "c_compiler_stub",
+      "c_stdlib_stub",
+      "pkg-config",
+      "automake 1.16.*",
+      "gettext-tools",
+      "gnuconfig",
+      "make",
+      "libtool"
+     ],
+     "host": [
+      "openssl",
+      "unixodbc",
+      "krb5",
+      "readline",
+      "libiconv"
+     ],
+     "run": [
+      "krb5"
+     ]
+    },
+    "tests": [
+     {
+      "script": "tsql -C"
+     }
+    ]
+   }
+  ],
   "package": {
    "name": "freetds",
-   "version": "1.4.24"
+   "version": "1.4.26"
   },
   "requirements": {
    "build": [
-    "gnuconfig",
     "c_compiler_stub",
     "c_stdlib_stub",
-    "libtool",
+    "pkg-config",
+    "automake 1.16.*",
+    "gettext-tools",
+    "gnuconfig",
     "make",
-    "pkg-config"
+    "libtool"
    ],
    "host": [
     "openssl",
@@ -307,23 +571,20 @@
     "krb5"
    ]
   },
-  "schema_version": 0,
+  "schema_version": 1,
   "source": {
-   "sha256": "07cea1b457f8fd5bad75bc342371b7e7e092f9247a813dc7b627c9235dfdb642",
-   "url": "http://www.freetds.org/files/stable/freetds-1.4.24.tar.bz2"
-  },
-  "test": {
-   "commands": [
-    "tsql -C"
-   ]
+   "sha256": "f555ac2bf31d99aad23561ac9558d8676eae1e01ace6ee7807d3af1dcc26d534",
+   "url": "https://www.freetds.org/files/stable/freetds-1.4.26.tar.gz"
   }
  },
  "osx_arm64_requirements": {
   "build": {
    "__set__": true,
    "elements": [
+    "automake",
     "c_compiler_stub",
     "c_stdlib_stub",
+    "gettext-tools",
     "gnuconfig",
     "libtool",
     "make",
@@ -367,21 +628,20 @@
  "pr_info": {
   "__lazy_json__": "pr_info/freetds.json"
  },
- "raw_meta_yaml": "{% set name = \"freetds\" %}\n{% set version = \"1.4.24\" %}\n\npackage:\n  name: {{ name }}\n  version: {{ version }}\n\nsource:\n  url: http://www.freetds.org/files/stable/{{ name }}-{{ version }}.tar.bz2\n  sha256: 07cea1b457f8fd5bad75bc342371b7e7e092f9247a813dc7b627c9235dfdb642\n\nbuild:\n  number: 0\n  run_exports:\n    # https://abi-laboratory.pro/tracker/timeline/freetds/\n    - {{ pin_subpackage('freetds') }}\n\nrequirements:\n  build:\n    - gnuconfig  # [unix]\n    - {{ compiler('c') }}\n    - {{ stdlib(\"c\") }}\n    - libtool  # [unix]\n    - make   # [unix]\n    - pkg-config\n    - cmake  # [win]\n    - ninja  # [win]\n  host:\n    - openssl\n    - unixodbc  # [unix]\n    - krb5      # [unix]\n    - readline  # [not win]\n    - libiconv  # [unix]\n    - perl  # [win]\n  run:\n    - krb5     # [unix]\n\ntest:\n  commands:\n    - tsql -C\n\nabout:\n  home: http://www.freetds.org/\n  license: LGPL-2.0-only\n  license_file: COPYING_LIB.txt\n  summary: FreeTDS is a free implementation of Sybase's DB-Library, CT-Library, and ODBC libraries\n  license_family: LGPL\n  doc_url: http://www.freetds.org/docs.html\n  dev_url: https://github.com/FreeTDS/freetds\n\nextra:\n  recipe-maintainers:\n    - mariusvniekerk\n    - xhochy\n",
+ "raw_meta_yaml": "schema_version: 1\n\ncontext:\n  name: freetds\n  version: 1.4.26\n\npackage:\n  name: ${{ name }}\n  version: ${{ version }}\n\nsource:\n  url: https://www.freetds.org/files/stable/freetds-${{ version }}.tar.gz\n  sha256: f555ac2bf31d99aad23561ac9558d8676eae1e01ace6ee7807d3af1dcc26d534\n\nbuild:\n  number: 0\n\nrequirements:\n  build:\n    - ${{ compiler('c') }}\n    - ${{ stdlib(\"c\") }}\n    - pkg-config\n    - if: unix\n      then: \n        - automake 1.16.*\n        - gettext-tools\n        - gnuconfig\n        - make\n        - libtool\n    - if: win\n      then: cmake\n    - if: win\n      then: ninja\n  host:\n    - openssl\n    - if: unix\n      then: unixodbc\n    - if: unix\n      then: krb5\n    - if: not win\n      then: readline\n    - if: unix\n      then: libiconv\n    - if: win\n      then: perl\n  run:\n    - if: unix\n      then: krb5\n  run_exports:\n    - ${{ pin_subpackage('freetds') }}\n\ntests:\n  - script:\n      - tsql -C\n\nabout:\n  license: LGPL-2.0-only\n  license_file: COPYING_LIB.txt\n  summary: \"FreeTDS is a free implementation of Sybase's DB-Library, CT-Library, and ODBC libraries\"\n  homepage: http://www.freetds.org/\n  repository: https://github.com/FreeTDS/freetds\n  documentation: http://www.freetds.org/docs.html\n\nextra:\n  recipe-maintainers:\n    - mariusvniekerk\n    - xhochy\n",
  "req": {
   "__set__": true,
   "elements": [
+   "automake",
    "c_compiler_stub",
    "c_stdlib_stub",
-   "cmake",
+   "gettext-tools",
    "gnuconfig",
    "krb5",
    "libiconv",
    "libtool",
    "make",
-   "ninja",
    "openssl",
-   "perl",
    "pkg-config",
    "readline",
    "unixodbc"
@@ -391,13 +651,13 @@
   "build": {
    "__set__": true,
    "elements": [
+    "automake",
     "c_compiler_stub",
     "c_stdlib_stub",
-    "cmake",
+    "gettext-tools",
     "gnuconfig",
     "libtool",
     "make",
-    "ninja",
     "pkg-config"
    ]
   },
@@ -409,7 +669,6 @@
     "krb5",
     "libiconv",
     "openssl",
-    "perl",
     "readline",
     "unixodbc"
    ]
@@ -432,13 +691,13 @@
   "build": {
    "__set__": true,
    "elements": [
+    "automake 1.16.*",
     "c_compiler_stub",
     "c_stdlib_stub",
-    "cmake",
+    "gettext-tools",
     "gnuconfig",
     "libtool",
     "make",
-    "ninja",
     "pkg-config"
    ]
   },
@@ -448,7 +707,6 @@
     "krb5",
     "libiconv",
     "openssl",
-    "perl",
     "readline",
     "unixodbc"
    ]
@@ -464,8 +722,8 @@
    "elements": []
   }
  },
- "url": "http://www.freetds.org/files/stable/freetds-1.4.24.tar.bz2",
- "version": "1.4.24",
+ "url": "https://www.freetds.org/files/stable/freetds-1.4.26.tar.gz",
+ "version": "1.4.26",
  "version_pr_info": {
   "__lazy_json__": "version_pr_info/freetds.json"
  },
@@ -475,15 +733,17 @@
    "doc_url": "http://www.freetds.org/docs.html",
    "home": "http://www.freetds.org/",
    "license": "LGPL-2.0-only",
-   "license_family": "LGPL",
+   "license_family": "LGPL-2.0-only",
    "license_file": "COPYING_LIB.txt",
    "summary": "FreeTDS is a free implementation of Sybase's DB-Library, CT-Library, and ODBC libraries"
   },
   "build": {
    "number": "0",
-   "run_exports": [
-    "freetds"
-   ]
+   "run_exports": {
+    "weak": [
+     "freetds"
+    ]
+   }
   },
   "extra": {
    "recipe-maintainers": [
@@ -491,56 +751,105 @@
     "xhochy"
    ]
   },
+  "outputs": [
+   {
+    "build": {
+     "strong": [],
+     "weak": [
+      "freetds"
+     ]
+    },
+    "name": "freetds",
+    "requirements": {
+     "build": [
+      "c_compiler_stub",
+      "c_stdlib_stub",
+      "pkg-config",
+      "automake 1.16.*",
+      "gettext-tools",
+      "gnuconfig",
+      "make",
+      "libtool"
+     ],
+     "host": [
+      "openssl",
+      "unixodbc",
+      "krb5",
+      "readline",
+      "libiconv"
+     ],
+     "run": [
+      "krb5"
+     ]
+    },
+    "tests": [
+     {
+      "script": "tsql -C"
+     }
+    ]
+   }
+  ],
   "package": {
    "name": "freetds",
-   "version": "1.4.24"
+   "version": "1.4.26"
   },
   "requirements": {
    "build": [
     "c_compiler_stub",
     "c_stdlib_stub",
     "pkg-config",
-    "cmake",
-    "ninja"
+    "automake 1.16.*",
+    "gettext-tools",
+    "gnuconfig",
+    "make",
+    "libtool"
    ],
    "host": [
     "openssl",
-    "perl"
+    "unixodbc",
+    "krb5",
+    "readline",
+    "libiconv"
    ],
-   "run": []
-  },
-  "schema_version": 0,
-  "source": {
-   "sha256": "07cea1b457f8fd5bad75bc342371b7e7e092f9247a813dc7b627c9235dfdb642",
-   "url": "http://www.freetds.org/files/stable/freetds-1.4.24.tar.bz2"
-  },
-  "test": {
-   "commands": [
-    "tsql -C"
+   "run": [
+    "krb5"
    ]
+  },
+  "schema_version": 1,
+  "source": {
+   "sha256": "f555ac2bf31d99aad23561ac9558d8676eae1e01ace6ee7807d3af1dcc26d534",
+   "url": "https://www.freetds.org/files/stable/freetds-1.4.26.tar.gz"
   }
  },
  "win_64_requirements": {
   "build": {
    "__set__": true,
    "elements": [
+    "automake",
     "c_compiler_stub",
     "c_stdlib_stub",
-    "cmake",
-    "ninja",
+    "gettext-tools",
+    "gnuconfig",
+    "libtool",
+    "make",
     "pkg-config"
    ]
   },
   "host": {
    "__set__": true,
    "elements": [
+    "krb5",
+    "libiconv",
     "openssl",
-    "perl"
+    "readline",
+    "unixodbc"
    ]
   },
   "run": {
    "__set__": true,
-   "elements": []
+   "elements": [
+    "krb5"
+   ]
   },
   "test": {
    "__set__": true,
