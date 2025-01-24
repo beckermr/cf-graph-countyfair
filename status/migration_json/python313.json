@@ -9215,6 +9215,8 @@
     "faster-coco-eval": {
       "immediate_children": [],
       "num_descendants": 0,
+      "pr_status": "unknown",
+      "pr_url": "https://github.com/conda-forge/faster-coco-eval-feedstock/pull/15",
       "pre_pr_migrator_status": ""
     },
     "fastexcel": {
@@ -41807,7 +41809,6 @@
   ],
   "awaiting-pr": [
     "itk-meshtopolydata",
-    "faster-coco-eval",
     "tomviz"
   ],
   "bot-error": [
@@ -43776,6 +43777,7 @@
     "odm2api",
     "histogrammar",
     "uavro",
+    "faster-coco-eval",
     "dfba",
     "deepgraph",
     "datatable",
