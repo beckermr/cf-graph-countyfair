@@ -41265,6 +41265,7 @@
     "pyferret",
     "vitables",
     "slovnet",
+    "su2",
     "stacrs",
     "lexid",
     "jaeger-client",
@@ -41795,7 +41796,6 @@
   ],
   "awaiting-pr": [
     "ssh2-python",
-    "su2",
     "itk-meshtopolydata",
     "faster-coco-eval",
     "ecflow",
