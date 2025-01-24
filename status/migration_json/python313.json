@@ -20157,7 +20157,7 @@
     "ndcurves": {
       "immediate_children": [],
       "num_descendants": 0,
-      "pr_status": "clean",
+      "pr_status": "unknown",
       "pr_url": "https://github.com/conda-forge/ndcurves-feedstock/pull/3",
       "pre_pr_migrator_status": ""
     },
@@ -43035,6 +43035,7 @@
     "coal",
     "pinocchio",
     "proxsuite-nlp",
+    "ndcurves",
     "crocoddyl",
     "mim-solvers",
     "hpp-environments",
@@ -44055,7 +44056,6 @@
     "esys-escript",
     "elektronn",
     "tsid",
-    "ndcurves",
     "drm4g",
     "dolfyn",
     "doebase",
