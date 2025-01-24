@@ -404,8 +404,8 @@
     "dicomifier": {
       "immediate_children": [],
       "num_descendants": 0,
-      "pr_status": "unknown",
-      "pr_url": "https://github.com/conda-forge/dicomifier-feedstock/pull/30",
+      "pr_status": "",
+      "pr_url": "https://github.com/conda-forge/dicomifier-feedstock",
       "pre_pr_migrator_status": ""
     },
     "dionysus": {
@@ -427,8 +427,8 @@
     "dynare-preprocessor": {
       "immediate_children": [],
       "num_descendants": 0,
-      "pr_status": "unknown",
-      "pr_url": "https://github.com/conda-forge/dynare-preprocessor-feedstock/pull/1",
+      "pr_status": "",
+      "pr_url": "https://github.com/conda-forge/dynare-preprocessor-feedstock",
       "pre_pr_migrator_status": ""
     },
     "e-antic": {
@@ -1243,8 +1243,8 @@
     "libradolan": {
       "immediate_children": [],
       "num_descendants": 0,
-      "pr_status": "unknown",
-      "pr_url": "https://github.com/conda-forge/libradolan-feedstock/pull/28",
+      "pr_status": "",
+      "pr_url": "https://github.com/conda-forge/libradolan-feedstock",
       "pre_pr_migrator_status": ""
     },
     "librobometry": {
@@ -1487,8 +1487,8 @@
     "nuflux": {
       "immediate_children": [],
       "num_descendants": 0,
-      "pr_status": "unknown",
-      "pr_url": "https://github.com/conda-forge/nuflux-feedstock/pull/38",
+      "pr_status": "",
+      "pr_url": "https://github.com/conda-forge/nuflux-feedstock",
       "pre_pr_migrator_status": ""
     },
     "nvidia-dali-python": {
@@ -2146,8 +2146,8 @@
     "tracktable": {
       "immediate_children": [],
       "num_descendants": 0,
-      "pr_status": "unknown",
-      "pr_url": "https://github.com/conda-forge/tracktable-feedstock/pull/27",
+      "pr_status": "",
+      "pr_url": "https://github.com/conda-forge/tracktable-feedstock",
       "pre_pr_migrator_status": ""
     },
     "triqs": {
