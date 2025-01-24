@@ -1,6 +1,6 @@
 {
- "ETag": "W/\"87d6e24f5bfabd09e2cc04b2744fe89408613a9034ef838f569a143135cbd4e2\"",
- "Last-Modified": "Fri, 10 Jan 2025 17:24:12 GMT",
+ "ETag": "W/\"c355fc51d6f3a6289b623c5508cea3e09a12c23ccb7e06a7aa308bf973b7a2b9\"",
+ "Last-Modified": "Fri, 24 Jan 2025 16:32:21 GMT",
  "base": {
   "repo": {
    "name": "plant-seg-feedstock"
@@ -11,11 +11,21 @@
  "draft": false,
  "e_tag": "\"6ee19792654d067ca728c499cb3c36d7bd1d93ae0a121e8072c79baf44119c95\"",
  "head": {
-  "ref": "noarch_python_min-migration-1_h3e5d6b"
+  "ref": "this_is_not_a_branch"
  },
  "html_url": "https://github.com/conda-forge/plant-seg-feedstock/pull/22",
  "id": 2270958758,
- "labels": [],
+ "labels": [
+  {
+   "color": "191970",
+   "default": false,
+   "description": "Instruct the bot to retry the PR",
+   "id": 6304392536,
+   "name": "bot-rerun",
+   "node_id": "LA_kwDOK3hKys8AAAABd8VlWA",
+   "url": "https://api.github.com/repos/conda-forge/plant-seg-feedstock/labels/bot-rerun"
+  }
+ ],
  "last_modified": null,
  "mergeable": true,
  "mergeable_state": "unstable",
@@ -23,5 +33,5 @@
  "merged_at": null,
  "number": 22,
  "state": "open",
- "updated_at": "2025-01-10T17:24:12Z"
+ "updated_at": "2025-01-24T16:32:21Z"
 }
