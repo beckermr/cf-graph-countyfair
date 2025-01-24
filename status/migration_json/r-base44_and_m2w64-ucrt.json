@@ -28981,6 +28981,7 @@
         "r-sparklyr.nested",
         "r-spocc",
         "r-spotifyr",
+        "r-systemfonts",
         "r-taxa",
         "r-taxize",
         "r-teamr",
@@ -29020,7 +29021,7 @@
         "xeus-r",
         "xgboost"
       ],
-      "num_descendants": 1171,
+      "num_descendants": 1181,
       "pr_status": "",
       "pr_url": "https://github.com/conda-forge/r-jsonlite-feedstock",
       "pre_pr_migrator_status": ""
