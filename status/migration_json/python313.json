@@ -35986,7 +35986,7 @@
     "ssh2-python": {
       "immediate_children": [],
       "num_descendants": 0,
-      "pr_status": "clean",
+      "pr_status": "unknown",
       "pr_url": "https://github.com/conda-forge/ssh2-python-feedstock/pull/47",
       "pre_pr_migrator_status": ""
     },
@@ -41873,6 +41873,7 @@
     "stream-inflate",
     "storm",
     "sspilib",
+    "ssh2-python",
     "sqlite-zstd",
     "spot",
     "spiceql",
@@ -43303,7 +43304,6 @@
     "sysv_ipc",
     "surelog",
     "superlance",
-    "ssh2-python",
     "ssh-python",
     "srt",
     "sqloxide",
