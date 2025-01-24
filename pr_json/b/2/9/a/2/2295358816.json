@@ -1,10 +1,12 @@
 {
+ "ETag": "W/\"ce9ca0e985085c76c139dd20e5d9969a949c2e023b6e35f45b424ddbd4afbbde\"",
+ "Last-Modified": "Fri, 24 Jan 2025 16:26:36 GMT",
  "base": {
   "repo": {
    "name": "faster-coco-eval-feedstock"
   }
  },
- "closed_at": null,
+ "closed_at": "2025-01-24T16:26:36Z",
  "created_at": "2025-01-23T20:45:23Z",
  "draft": false,
  "e_tag": "\"fb885e19e93d4a458ba799488e9db330f5001538fbfa0fbeb28cb29715034c21\"",
@@ -15,11 +17,11 @@
  "id": 2295358816,
  "labels": [],
  "last_modified": null,
- "mergeable": null,
- "mergeable_state": "unknown",
+ "mergeable": false,
+ "mergeable_state": "dirty",
  "merged": false,
  "merged_at": null,
  "number": 11,
- "state": "open",
- "updated_at": "2025-01-23T20:45:23Z"
+ "state": "closed",
+ "updated_at": "2025-01-24T16:26:36Z"
 }
