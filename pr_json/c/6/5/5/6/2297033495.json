@@ -1,0 +1,25 @@
+{
+ "base": {
+  "repo": {
+   "name": "ecflow-feedstock"
+  }
+ },
+ "closed_at": null,
+ "created_at": "2025-01-24T15:31:00Z",
+ "draft": false,
+ "e_tag": "\"a7a5c92f98421ad41e3270628fe85477116ba779fc6f2e3bb3d7edc2c9f68768\"",
+ "head": {
+  "ref": "rebuild-python313-0-1_h0a19b8"
+ },
+ "html_url": "https://github.com/conda-forge/ecflow-feedstock/pull/84",
+ "id": 2297033495,
+ "labels": [],
+ "last_modified": null,
+ "mergeable": null,
+ "mergeable_state": "unknown",
+ "merged": false,
+ "merged_at": null,
+ "number": 84,
+ "state": "open",
+ "updated_at": "2025-01-24T15:31:00Z"
+}
