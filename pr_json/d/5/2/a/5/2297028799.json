@@ -1,4 +1,6 @@
 {
+ "ETag": "W/\"e040c5e03d4b7fe7abbf1fbc437bb3d3baffec6de069378a4c4cd6672d1bf9bd\"",
+ "Last-Modified": "Fri, 24 Jan 2025 15:30:01 GMT",
  "base": {
   "repo": {
    "name": "ssh2-python-feedstock"
@@ -15,11 +17,11 @@
  "id": 2297028799,
  "labels": [],
  "last_modified": null,
- "mergeable": null,
- "mergeable_state": "unknown",
+ "mergeable": true,
+ "mergeable_state": "clean",
  "merged": false,
  "merged_at": null,
  "number": 47,
  "state": "open",
- "updated_at": "2025-01-24T15:28:27Z"
+ "updated_at": "2025-01-24T15:30:01Z"
 }
