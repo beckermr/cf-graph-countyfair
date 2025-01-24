@@ -1,6 +1,6 @@
 {
- "ETag": "W/\"98ba36921a9b2e6ee023ce5cff64bca9c3c649792f71423174796ac9f2196913\"",
- "Last-Modified": "Fri, 24 Jan 2025 09:29:29 GMT",
+ "ETag": "W/\"34907a0c46fa7ecc2f6e59d0d9562dc05120292075cc44d05808046cbe0c15c4\"",
+ "Last-Modified": "Fri, 24 Jan 2025 09:30:20 GMT",
  "base": {
   "repo": {
    "name": "ndcurves-feedstock"
@@ -23,5 +23,5 @@
  "merged_at": "2025-01-24T09:29:28Z",
  "number": 3,
  "state": "closed",
- "updated_at": "2025-01-24T09:29:29Z"
+ "updated_at": "2025-01-24T09:30:20Z"
 }
