@@ -470,7 +470,6 @@
     "micropipenv": "1.9.0",
     "mikeio": "2.2.1",
     "mistral-common": "1.5.2",
-    "moka-py": "0.1.16",
     "mypy_boto3_ec2": "1.36.5",
     "mystmd": "1.3.22",
     "napari-convpaint": "0.6.0",
@@ -550,6 +549,7 @@
     "uxarray": "2025.01.0",
     "verticapy": "1.1.1",
     "xcube": "1.8.0",
+    "xeus-cpp": "0.6.0",
     "xz": "5.6.4"
   }
 }
