@@ -839,6 +839,7 @@
     "llama-index-core",
     "llama-index-readers-file",
     "llnl-sina",
+    "logfire",
     "mbuild",
     "mc",
     "metaflow",
