@@ -22,8 +22,6 @@
     "b3sum": {
       "immediate_children": [],
       "num_descendants": 0,
-      "pr_status": "dirty",
-      "pr_url": "https://github.com/conda-forge/b3sum-feedstock/pull/7",
       "pre_pr_migrator_status": ""
     },
     "calculix": {
@@ -55296,8 +55294,8 @@
         "r-twang"
       ],
       "num_descendants": 15,
-      "pr_status": "unknown",
-      "pr_url": "https://github.com/conda-forge/xgboost-feedstock/pull/177",
+      "pr_status": "",
+      "pr_url": "https://github.com/conda-forge/xgboost-feedstock",
       "pre_pr_migrator_status": ""
     },
     "xorg-applewmproto": {
@@ -59713,7 +59711,8 @@
     "r-mikropml",
     "r-modeltime",
     "r-shapviz",
-    "r-twang"
+    "r-twang",
+    "b3sum"
   ],
   "bot-error": [
     "go1.4-bootstrap"
@@ -63402,8 +63401,7 @@
     "go",
     "tmsu",
     "tilt",
-    "codec2",
-    "b3sum"
+    "codec2"
   ],
   "in-pr": [
     "climlab-rrtmg",
