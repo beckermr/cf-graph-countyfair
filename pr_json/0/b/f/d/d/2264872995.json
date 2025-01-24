@@ -1,12 +1,12 @@
 {
- "ETag": "W/\"37d60e3a1e7ef9cc1550773701ee1162d5253a19ff9807d684ba18e2328e9b0d\"",
- "Last-Modified": "Tue, 07 Jan 2025 23:35:48 GMT",
+ "ETag": "W/\"e6dae6da8838f30893a1b5ba5ed2bb3e6e2ece5188a869e6909a95d0965ecc0d\"",
+ "Last-Modified": "Fri, 24 Jan 2025 10:34:10 GMT",
  "base": {
   "repo": {
    "name": "s3cmd-feedstock"
   }
  },
- "closed_at": null,
+ "closed_at": "2025-01-24T10:34:10Z",
  "created_at": "2025-01-07T23:34:27Z",
  "draft": false,
  "e_tag": "\"035ac0e9269885b815d04c23b4b2a2e4047bbfefb2da8666623aebf1079bf344\"",
@@ -17,11 +17,11 @@
  "id": 2264872995,
  "labels": [],
  "last_modified": null,
- "mergeable": true,
- "mergeable_state": "clean",
+ "mergeable": null,
+ "mergeable_state": "unknown",
  "merged": false,
  "merged_at": null,
  "number": 6,
- "state": "open",
- "updated_at": "2025-01-07T23:35:48Z"
+ "state": "closed",
+ "updated_at": "2025-01-24T10:34:10Z"
 }
