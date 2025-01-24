@@ -1,6 +1,6 @@
 {
- "ETag": "W/\"28e0ad325b90407a220f826c918f9c2de34801793d602851168ffea93bf1f55f\"",
- "Last-Modified": "Fri, 17 Jan 2025 11:07:53 GMT",
+ "ETag": "W/\"6e51f12298fbd80838228b006ad37a80292ce38731dac0c172d1422d015d5e61\"",
+ "Last-Modified": "Fri, 24 Jan 2025 15:12:08 GMT",
  "base": {
   "repo": {
    "name": "geomodels-feedstock"
@@ -18,10 +18,10 @@
  "labels": [],
  "last_modified": null,
  "mergeable": true,
- "mergeable_state": "unstable",
+ "mergeable_state": "clean",
  "merged": false,
  "merged_at": null,
  "number": 2,
  "state": "open",
- "updated_at": "2025-01-17T11:07:53Z"
+ "updated_at": "2025-01-24T15:12:08Z"
 }
