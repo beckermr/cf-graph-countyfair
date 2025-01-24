@@ -2440,7 +2440,7 @@
     "geomodels": {
       "immediate_children": [],
       "num_descendants": 0,
-      "pr_status": "unstable",
+      "pr_status": "unknown",
       "pr_url": "https://github.com/conda-forge/geomodels-feedstock/pull/1",
       "pre_pr_migrator_status": ""
     },
@@ -10011,6 +10011,7 @@
     "freud",
     "gridfill",
     "gimli.units",
+    "geomodels",
     "genomekit",
     "gdstk",
     "fresnel",
@@ -10444,7 +10445,6 @@
     "pymt_sedflux",
     "pymt_hydrotrend",
     "pymt_child",
-    "geomodels",
     "gdecomp",
     "gstlal-inspiral",
     "pyseobnr",
