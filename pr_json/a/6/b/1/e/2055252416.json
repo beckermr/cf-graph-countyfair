@@ -1,6 +1,6 @@
 {
- "ETag": "W/\"91e4445bdf5f13dee26d8b461fa4cc5b8057fdbfec3deb7eac57acd72fc88032\"",
- "Last-Modified": "Thu, 05 Sep 2024 10:07:16 GMT",
+ "ETag": "W/\"8d130d842a60fd3f1ef1c298087181b1f1418a9ed6b509eb76a0ccdf808bc5bc\"",
+ "Last-Modified": "Fri, 24 Jan 2025 07:50:37 GMT",
  "base": {
   "repo": {
    "name": "leparagliding-feedstock"
@@ -21,5 +21,5 @@
  "merged_at": null,
  "number": 11,
  "state": "open",
- "updated_at": "2024-09-05T10:07:16Z"
+ "updated_at": "2025-01-24T07:50:37Z"
 }
