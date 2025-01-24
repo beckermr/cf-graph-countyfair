@@ -1,10 +1,12 @@
 {
+ "ETag": "W/\"ac80a4eacd2db81b79ba537c4277f9be3e5da6fbcf4ec5f9828cf29ddec014b9\"",
+ "Last-Modified": "Fri, 24 Jan 2025 13:01:30 GMT",
  "base": {
   "repo": {
    "name": "pymongoarrow-feedstock"
   }
  },
- "closed_at": null,
+ "closed_at": "2025-01-24T13:01:30Z",
  "created_at": "2025-01-23T20:23:38Z",
  "draft": false,
  "e_tag": "\"2f54ab640adb7ac924305e603ac5796f4fd91df73bb7eae2ce1705bc22cf60c0\"",
@@ -20,6 +22,6 @@
  "merged": false,
  "merged_at": null,
  "number": 51,
- "state": "open",
- "updated_at": "2025-01-23T20:23:38Z"
+ "state": "closed",
+ "updated_at": "2025-01-24T13:01:30Z"
 }
