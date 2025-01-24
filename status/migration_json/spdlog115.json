@@ -91,6 +91,8 @@
     "gnuradio-satellites": {
       "immediate_children": [],
       "num_descendants": 0,
+      "pr_status": "",
+      "pr_url": "https://github.com/conda-forge/gnuradio-satellites-feedstock",
       "pre_pr_migrator_status": ""
     },
     "gz-common": {
@@ -296,9 +298,7 @@
     "gems3k",
     "xgems"
   ],
-  "awaiting-pr": [
-    "gnuradio-satellites"
-  ],
+  "awaiting-pr": [],
   "bot-error": [],
   "done": [
     "tip",
@@ -316,6 +316,7 @@
     "gz-utils",
     "gz-common",
     "gnuradio",
+    "gnuradio-satellites",
     "gnuradio-funcube",
     "dartsim",
     "arcticdb"
