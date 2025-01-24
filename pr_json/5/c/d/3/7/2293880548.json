@@ -1,12 +1,12 @@
 {
- "ETag": "W/\"e7abf9274b9a114b5224858b0a3a5e4780ec4f913443500d1583cc5dbffaa32c\"",
- "Last-Modified": "Thu, 23 Jan 2025 08:16:31 GMT",
+ "ETag": "W/\"a7820e4e89617c6fb49925ce7fa8f1d47843d53d9f88ea8c24bb2a12b8a45d0e\"",
+ "Last-Modified": "Fri, 24 Jan 2025 14:34:52 GMT",
  "base": {
   "repo": {
    "name": "pypolymlp-feedstock"
   }
  },
- "closed_at": null,
+ "closed_at": "2025-01-24T14:34:52Z",
  "created_at": "2025-01-23T08:16:31Z",
  "draft": false,
  "e_tag": "\"da3461fb83513744377892280e0d8c733e43a6546c02d5e46d658ef81b6e9b15\"",
@@ -15,13 +15,23 @@
  },
  "html_url": "https://github.com/conda-forge/pypolymlp-feedstock/pull/22",
  "id": 2293880548,
- "labels": [],
+ "labels": [
+  {
+   "color": "191970",
+   "default": false,
+   "description": "Instruct the bot to retry the PR",
+   "id": 7516180967,
+   "name": "bot-rerun",
+   "node_id": "LA_kwDOM3FG9c8AAAABv__R5w",
+   "url": "https://api.github.com/repos/conda-forge/pypolymlp-feedstock/labels/bot-rerun"
+  }
+ ],
  "last_modified": null,
  "mergeable": true,
  "mergeable_state": "unstable",
  "merged": false,
  "merged_at": null,
  "number": 22,
- "state": "open",
- "updated_at": "2025-01-23T08:16:31Z"
+ "state": "closed",
+ "updated_at": "2025-01-24T14:34:54Z"
 }
