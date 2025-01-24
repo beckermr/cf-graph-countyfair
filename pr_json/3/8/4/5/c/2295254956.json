@@ -1,10 +1,12 @@
 {
+ "ETag": "W/\"3c5942db8f512a5b13d6e0a0c319f09d62cb8298b9d11866ee64535f1e468cb6\"",
+ "Last-Modified": "Fri, 24 Jan 2025 13:07:08 GMT",
  "base": {
   "repo": {
    "name": "jfrog-cli-feedstock"
   }
  },
- "closed_at": null,
+ "closed_at": "2025-01-24T13:07:07Z",
  "created_at": "2025-01-23T19:36:36Z",
  "draft": false,
  "e_tag": "\"0c9d1f22e393cc2d26f3afa4f9bb640e9e1716b0c9533656d5946d1681007571\"",
@@ -20,6 +22,6 @@
  "merged": false,
  "merged_at": null,
  "number": 16,
- "state": "open",
- "updated_at": "2025-01-23T19:36:36Z"
+ "state": "closed",
+ "updated_at": "2025-01-24T13:07:08Z"
 }
