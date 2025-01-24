@@ -24210,6 +24210,7 @@
         "r-reticulate",
         "r-rstanarm",
         "r-seurat",
+        "r-systemfonts",
         "r-testthat",
         "r-tseries",
         "r-v8",
@@ -24217,7 +24218,7 @@
         "xeus-r",
         "xgboost"
       ],
-      "num_descendants": 65,
+      "num_descendants": 70,
       "pr_status": "",
       "pr_url": "https://github.com/conda-forge/r-jsonlite-feedstock",
       "pre_pr_migrator_status": ""
