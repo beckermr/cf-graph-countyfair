@@ -1,4 +1,6 @@
 {
+ "ETag": "W/\"b1a73de6b05047fe6cd3f0cc58bbe8806b643cc5d62a1aef369d9f60ce730e35\"",
+ "Last-Modified": "Fri, 24 Jan 2025 16:13:37 GMT",
  "base": {
   "repo": {
    "name": "r-tidycensus-feedstock"
@@ -15,11 +17,11 @@
  "id": 2297081009,
  "labels": [],
  "last_modified": null,
- "mergeable": null,
- "mergeable_state": "unknown",
+ "mergeable": true,
+ "mergeable_state": "clean",
  "merged": false,
  "merged_at": null,
  "number": 24,
  "state": "open",
- "updated_at": "2025-01-24T15:56:14Z"
+ "updated_at": "2025-01-24T16:13:37Z"
 }
