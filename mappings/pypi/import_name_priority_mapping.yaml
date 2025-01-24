@@ -23719,9 +23719,6 @@
 - import_name: pixell
   ranked_conda_names:
   - pixell
-- import_name: pixi_diff_to_markdown
-  ranked_conda_names:
-  - pixi-diff-to-markdown
 - import_name: pixi_kernel
   ranked_conda_names:
   - pixi-kernel
