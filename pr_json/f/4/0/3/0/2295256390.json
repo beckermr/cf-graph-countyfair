@@ -1,10 +1,12 @@
 {
+ "ETag": "W/\"67078b6ca88f5c4f3fd93f276b35cc3ed03a4eb24d9cc32d8941a33710b3f630\"",
+ "Last-Modified": "Fri, 24 Jan 2025 13:03:09 GMT",
  "base": {
   "repo": {
    "name": "xscen-feedstock"
   }
  },
- "closed_at": null,
+ "closed_at": "2025-01-24T13:03:08Z",
  "created_at": "2025-01-23T19:37:31Z",
  "draft": false,
  "e_tag": "\"600e5b19f4c5e696f130973b4a3e35698445a06e21b0980de33b5f0499097567\"",
@@ -13,13 +15,23 @@
  },
  "html_url": "https://github.com/conda-forge/xscen-feedstock/pull/12",
  "id": 2295256390,
- "labels": [],
+ "labels": [
+  {
+   "color": "191970",
+   "default": false,
+   "description": "Instruct the bot to retry the PR",
+   "id": 5869117106,
+   "name": "bot-rerun",
+   "node_id": "LA_kwDOKJofMs8AAAABXdOesg",
+   "url": "https://api.github.com/repos/conda-forge/xscen-feedstock/labels/bot-rerun"
+  }
+ ],
  "last_modified": null,
- "mergeable": null,
- "mergeable_state": "unknown",
+ "mergeable": false,
+ "mergeable_state": "dirty",
  "merged": false,
  "merged_at": null,
  "number": 12,
- "state": "open",
- "updated_at": "2025-01-23T19:37:31Z"
+ "state": "closed",
+ "updated_at": "2025-01-24T13:03:09Z"
 }
