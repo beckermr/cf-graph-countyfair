@@ -1,10 +1,12 @@
 {
+ "ETag": "W/\"611ae121c7fca8ec073127d6657c398ff1fac11c69473f20c8a9d2aaa61b37ff\"",
+ "Last-Modified": "Fri, 24 Jan 2025 13:02:09 GMT",
  "base": {
   "repo": {
    "name": "pytest-aiohttp-feedstock"
   }
  },
- "closed_at": null,
+ "closed_at": "2025-01-24T13:02:09Z",
  "created_at": "2025-01-23T18:51:57Z",
  "draft": false,
  "e_tag": "\"77acf273f46d2545a1964078dbba271947c3973d30794cc8fda8f5c57e2dd358\"",
@@ -15,11 +17,11 @@
  "id": 2295183285,
  "labels": [],
  "last_modified": null,
- "mergeable": null,
- "mergeable_state": "unknown",
+ "mergeable": true,
+ "mergeable_state": "unstable",
  "merged": false,
  "merged_at": null,
  "number": 12,
- "state": "open",
- "updated_at": "2025-01-23T18:51:57Z"
+ "state": "closed",
+ "updated_at": "2025-01-24T13:02:09Z"
 }
