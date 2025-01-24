@@ -307,9 +307,9 @@
 <!-- open3d -->
 <g id="node28" class="node">
 <title>open3d</title>
-<g id="a_node28"><a xlink:href="https://github.com/conda-forge/open3d-feedstock" xlink:title="open3d">
-<ellipse fill="#35b779" stroke="black" cx="271.58" cy="-350" rx="48.05" ry="18"/>
-<text text-anchor="middle" x="271.58" y="-345.32" font-family="Times,serif" font-size="14.00">open3d</text>
+<g id="a_node28"><a xlink:href="https://github.com/conda-forge/open3d-feedstock/pull/24" xlink:title="open3d ❎">
+<ellipse fill="#31688e" stroke="black" cx="271.58" cy="-350" rx="63.31" ry="18"/>
+<text text-anchor="middle" x="271.58" y="-345.32" font-family="Times,serif" font-size="14.00" fill="white">open3d ❎</text>
 </a>
 </g>
 </g>
