@@ -13290,7 +13290,7 @@
         "r-webmockr",
         "r-wordcloud2"
       ],
-      "num_descendants": 668,
+      "num_descendants": 667,
       "pr_status": "",
       "pr_url": "https://github.com/conda-forge/r-base64enc-feedstock",
       "pre_pr_migrator_status": ""
@@ -14735,7 +14735,7 @@
         "r-shiny",
         "r-shinywidgets"
       ],
-      "num_descendants": 580,
+      "num_descendants": 579,
       "pr_status": "",
       "pr_url": "https://github.com/conda-forge/r-bslib-feedstock",
       "pre_pr_migrator_status": ""
@@ -14887,7 +14887,7 @@
         "r-memoise",
         "r-shiny"
       ],
-      "num_descendants": 638,
+      "num_descendants": 637,
       "pr_status": "",
       "pr_url": "https://github.com/conda-forge/r-cachem-feedstock",
       "pre_pr_migrator_status": ""
@@ -16669,6 +16669,7 @@
         "r-hmisc",
         "r-hues",
         "r-munsell",
+        "r-netmeta",
         "r-nmf",
         "r-pals",
         "r-phyloregion",
@@ -16794,7 +16795,7 @@
         "r-shiny",
         "r-spelling"
       ],
-      "num_descendants": 605,
+      "num_descendants": 604,
       "pr_status": "",
       "pr_url": "https://github.com/conda-forge/r-commonmark-feedstock",
       "pre_pr_migrator_status": ""
@@ -19840,6 +19841,7 @@
         "r-naniar",
         "r-nanostringr",
         "r-ncmeta",
+        "r-netmeta",
         "r-networklite",
         "r-nlmixr2extra",
         "r-nplyr",
@@ -21561,7 +21563,7 @@
         "r-shiny",
         "r-shinymeta"
       ],
-      "num_descendants": 977,
+      "num_descendants": 976,
       "pr_status": "",
       "pr_url": "https://github.com/conda-forge/r-fastmap-feedstock",
       "pre_pr_migrator_status": ""
@@ -22223,7 +22225,7 @@
         "r-shiny",
         "r-shinyfeedback"
       ],
-      "num_descendants": 580,
+      "num_descendants": 579,
       "pr_status": "",
       "pr_url": "https://github.com/conda-forge/r-fontawesome-feedstock",
       "pre_pr_migrator_status": ""
@@ -26827,7 +26829,7 @@
         "r-knitr",
         "r-questionr"
       ],
-      "num_descendants": 577,
+      "num_descendants": 576,
       "pr_status": "",
       "pr_url": "https://github.com/conda-forge/r-highr-feedstock",
       "pre_pr_migrator_status": ""
@@ -27192,7 +27194,7 @@
         "r-widgetframe",
         "r-xaringan"
       ],
-      "num_descendants": 615,
+      "num_descendants": 614,
       "pr_status": "",
       "pr_url": "https://github.com/conda-forge/r-htmltools-feedstock",
       "pre_pr_migrator_status": ""
@@ -27358,7 +27360,7 @@
         "r-shinytest",
         "r-workflowr"
       ],
-      "num_descendants": 899,
+      "num_descendants": 898,
       "pr_status": "",
       "pr_url": "https://github.com/conda-forge/r-httpuv-feedstock",
       "pre_pr_migrator_status": ""
@@ -28698,7 +28700,7 @@
         "r-dt",
         "r-rmarkdown"
       ],
-      "num_descendants": 581,
+      "num_descendants": 580,
       "pr_status": "",
       "pr_url": "https://github.com/conda-forge/r-jquerylib-feedstock",
       "pre_pr_migrator_status": ""
@@ -29466,7 +29468,7 @@
         "r-xaringan",
         "xgboost"
       ],
-      "num_descendants": 573,
+      "num_descendants": 572,
       "pr_status": "",
       "pr_url": "https://github.com/conda-forge/r-knitr-feedstock",
       "pre_pr_migrator_status": ""
@@ -29776,7 +29778,7 @@
         "r-webshot2",
         "r-websocket"
       ],
-      "num_descendants": 907,
+      "num_descendants": 906,
       "pr_status": "",
       "pr_url": "https://github.com/conda-forge/r-later-feedstock",
       "pre_pr_migrator_status": ""
@@ -31426,6 +31428,7 @@
         "r-naniar",
         "r-nanostringr",
         "r-neo4r",
+        "r-netmeta",
         "r-network",
         "r-networkd3",
         "r-nglviewer",
@@ -32357,6 +32360,7 @@
         "r-mumin",
         "r-mvord",
         "r-n2r",
+        "r-netmeta",
         "r-networkcomparisontest",
         "r-nlmixr",
         "r-nlmixr2est",
@@ -32960,7 +32964,7 @@
         "r-snotelr",
         "r-treedist"
       ],
-      "num_descendants": 637,
+      "num_descendants": 636,
       "pr_status": "",
       "pr_url": "https://github.com/conda-forge/r-memoise-feedstock",
       "pre_pr_migrator_status": ""
@@ -33355,7 +33359,7 @@
         "r-servr",
         "r-shiny"
       ],
-      "num_descendants": 768,
+      "num_descendants": 767,
       "pr_status": "",
       "pr_url": "https://github.com/conda-forge/r-mime-feedstock",
       "pre_pr_migrator_status": ""
@@ -34681,6 +34685,7 @@
         "r-msm",
         "r-multcomp",
         "r-mvord",
+        "r-netmeta",
         "r-nparcomp",
         "r-paireddata",
         "r-party",
@@ -34707,7 +34712,7 @@
         "r-umx",
         "r-unireg"
       ],
-      "num_descendants": 250,
+      "num_descendants": 251,
       "pr_status": "",
       "pr_url": "https://github.com/conda-forge/r-mvtnorm-feedstock",
       "pre_pr_migrator_status": ""
@@ -38990,7 +38995,7 @@
         "r-shinytree",
         "r-webshot2"
       ],
-      "num_descendants": 902,
+      "num_descendants": 901,
       "pr_status": "",
       "pr_url": "https://github.com/conda-forge/r-promises-feedstock",
       "pre_pr_migrator_status": ""
@@ -40712,7 +40717,7 @@
         "r-usethis",
         "r-wdpar"
       ],
-      "num_descendants": 696,
+      "num_descendants": 695,
       "pr_status": "",
       "pr_url": "https://github.com/conda-forge/r-rappdirs-feedstock",
       "pre_pr_migrator_status": ""
@@ -44253,7 +44258,6 @@
         "r-matlib",
         "r-mendelianrandomization",
         "r-nacho",
-        "r-netmeta",
         "r-obistools",
         "r-officedown",
         "r-pagedown",
@@ -44289,7 +44293,7 @@
         "r-ymlthis",
         "rstudio"
       ],
-      "num_descendants": 499,
+      "num_descendants": 498,
       "pr_status": "",
       "pr_url": "https://github.com/conda-forge/r-rmarkdown-feedstock",
       "pre_pr_migrator_status": ""
@@ -45964,7 +45968,7 @@
         "r-rhino",
         "r-shinywidgets"
       ],
-      "num_descendants": 581,
+      "num_descendants": 580,
       "pr_status": "",
       "pr_url": "https://github.com/conda-forge/r-sass-feedstock",
       "pre_pr_migrator_status": ""
@@ -47074,7 +47078,7 @@
         "r-ymlthis",
         "shinycustomloader"
       ],
-      "num_descendants": 579,
+      "num_descendants": 578,
       "pr_status": "",
       "pr_url": "https://github.com/conda-forge/r-shiny-feedstock",
       "pre_pr_migrator_status": ""
@@ -48105,7 +48109,7 @@
         "r-shiny",
         "r-shinymeta"
       ],
-      "num_descendants": 580,
+      "num_descendants": 579,
       "pr_status": "",
       "pr_url": "https://github.com/conda-forge/r-sourcetools-feedstock",
       "pre_pr_migrator_status": ""
@@ -52013,7 +52017,7 @@
         "r-rmarkdown",
         "r-rticles"
       ],
-      "num_descendants": 501,
+      "num_descendants": 500,
       "pr_status": "",
       "pr_url": "https://github.com/conda-forge/r-tinytex-feedstock",
       "pre_pr_migrator_status": ""
@@ -54428,7 +54432,7 @@
         "r-workflowr",
         "r-xaringan"
       ],
-      "num_descendants": 595,
+      "num_descendants": 594,
       "pr_status": "",
       "pr_url": "https://github.com/conda-forge/r-xfun-feedstock",
       "pre_pr_migrator_status": ""
@@ -54741,7 +54745,7 @@
         "r-umx",
         "r-userfriendlyscience"
       ],
-      "num_descendants": 614,
+      "num_descendants": 613,
       "pr_status": "",
       "pr_url": "https://github.com/conda-forge/r-xtable-feedstock",
       "pre_pr_migrator_status": ""
@@ -54864,7 +54868,7 @@
         "r-ymlthis",
         "rstudio"
       ],
-      "num_descendants": 652,
+      "num_descendants": 651,
       "pr_status": "",
       "pr_url": "https://github.com/conda-forge/r-yaml-feedstock",
       "pre_pr_migrator_status": ""
