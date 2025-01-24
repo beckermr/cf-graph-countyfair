@@ -1,10 +1,12 @@
 {
+ "ETag": "W/\"f493cf1ea96a00f0d200e6b7af6eaa523bee0d00bfb5b47cd058ba445f98100c\"",
+ "Last-Modified": "Fri, 24 Jan 2025 13:03:59 GMT",
  "base": {
   "repo": {
    "name": "st-annotated-text-feedstock"
   }
  },
- "closed_at": null,
+ "closed_at": "2025-01-24T13:03:59Z",
  "created_at": "2025-01-23T18:03:25Z",
  "draft": false,
  "e_tag": "\"17b922d49d028159efa368b4e5f4d7d168916e84c2a2bd952212a11927fe50ca\"",
@@ -15,11 +17,11 @@
  "id": 2295096548,
  "labels": [],
  "last_modified": null,
- "mergeable": null,
- "mergeable_state": "unknown",
+ "mergeable": true,
+ "mergeable_state": "clean",
  "merged": false,
  "merged_at": null,
  "number": 4,
- "state": "open",
- "updated_at": "2025-01-23T18:03:25Z"
+ "state": "closed",
+ "updated_at": "2025-01-24T13:03:59Z"
 }
