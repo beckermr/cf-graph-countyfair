@@ -3965,9 +3965,9 @@
 <!-- faster&#45;coco&#45;eval -->
 <g id="node371" class="node">
 <title>faster&#45;coco&#45;eval</title>
-<g id="a_node371"><a xlink:href="https://github.com/conda-forge/faster-coco-eval-feedstock/pull/14" xlink:title="faster coco eval ❎">
-<ellipse fill="#31688e" stroke="black" cx="267.47" cy="-4630" rx="104.87" ry="18"/>
-<text text-anchor="middle" x="267.47" y="-4625.32" font-family="Times,serif" font-size="14.00" fill="white">faster coco eval ❎</text>
+<g id="a_node371"><a xlink:href="https://github.com/conda-forge/faster-coco-eval-feedstock/pull/14" xlink:title="faster coco eval ✓">
+<ellipse fill="#31688e" stroke="black" cx="267.47" cy="-4630" rx="97.51" ry="18"/>
+<text text-anchor="middle" x="267.47" y="-4625.32" font-family="Times,serif" font-size="14.00" fill="white">faster coco eval ✓</text>
 </a>
 </g>
 </g>
