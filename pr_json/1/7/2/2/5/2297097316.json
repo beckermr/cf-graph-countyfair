@@ -1,15 +1,17 @@
 {
+ "ETag": "W/\"e7456e31370990668d7a5d0fe28ae91b39c77f52faff85466015de6c5e466e5d\"",
+ "Last-Modified": "Fri, 24 Jan 2025 16:15:45 GMT",
  "base": {
   "repo": {
    "name": "albumentations-feedstock"
   }
  },
- "closed_at": null,
+ "closed_at": "2025-01-24T16:15:41Z",
  "created_at": "2025-01-24T16:05:18Z",
  "draft": false,
  "e_tag": "\"ec0fa5e2f9d5091b1735e9321f0a4c065f4a0318d63f10944b06d31dac7ee5f9\"",
  "head": {
-  "ref": "2.0.1_ha77634"
+  "ref": "this_is_not_a_branch"
  },
  "html_url": "https://github.com/conda-forge/albumentations-feedstock/pull/58",
  "id": 2297097316,
@@ -17,9 +19,9 @@
  "last_modified": null,
  "mergeable": null,
  "mergeable_state": "unknown",
- "merged": false,
- "merged_at": null,
+ "merged": true,
+ "merged_at": "2025-01-24T16:15:41Z",
  "number": 58,
- "state": "open",
- "updated_at": "2025-01-24T16:05:18Z"
+ "state": "closed",
+ "updated_at": "2025-01-24T16:15:45Z"
 }
