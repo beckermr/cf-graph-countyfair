@@ -1,10 +1,12 @@
 {
+ "ETag": "W/\"45ed7e56bdd91c48d57f84425dc3f0cbaab440932b2c59ee1d0aa5cc5ec67e8c\"",
+ "Last-Modified": "Fri, 24 Jan 2025 13:02:55 GMT",
  "base": {
   "repo": {
    "name": "tts-feedstock"
   }
  },
- "closed_at": null,
+ "closed_at": "2025-01-24T13:02:55Z",
  "created_at": "2025-01-23T17:25:19Z",
  "draft": false,
  "e_tag": "\"30fd4aafbcc92967c8ea922fb4732f5f23eb4f22d18afd269a065a71c0ac5121\"",
@@ -15,11 +17,11 @@
  "id": 2295023003,
  "labels": [],
  "last_modified": null,
- "mergeable": null,
- "mergeable_state": "unknown",
+ "mergeable": true,
+ "mergeable_state": "unstable",
  "merged": false,
  "merged_at": null,
  "number": 15,
- "state": "open",
- "updated_at": "2025-01-23T17:25:19Z"
+ "state": "closed",
+ "updated_at": "2025-01-24T13:02:55Z"
 }
