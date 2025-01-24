@@ -12997,8 +12997,8 @@
         "r-tidyconsultant"
       ],
       "num_descendants": 2,
-      "pr_status": "unknown",
-      "pr_url": "https://github.com/conda-forge/r-autostats-feedstock/pull/6",
+      "pr_status": "",
+      "pr_url": "https://github.com/conda-forge/r-autostats-feedstock",
       "pre_pr_migrator_status": ""
     },
     "r-av": {
@@ -59699,7 +59699,6 @@
   "awaiting-parents": [
     "frv",
     "r-cmprskcoxmsm",
-    "r-ecospat",
     "r-modeltime.ensemble",
     "r-modeltime.resample",
     "r-tidyconsultant",
@@ -59715,6 +59714,7 @@
     "m2w64-jq"
   ],
   "awaiting-pr": [
+    "r-ecospat",
     "r-tidybins",
     "b3sum"
   ],
@@ -59992,6 +59992,7 @@
     "r-biocmanager",
     "r-biodivmapr",
     "r-biomark",
+    "r-biomod2",
     "r-bioseq",
     "r-bioset",
     "r-bipartite",
@@ -63432,7 +63433,6 @@
     "pigz",
     "pycrlibm",
     "pyreadr",
-    "r-biomod2",
     "r-destinie",
     "r-geoprocessor",
     "r-mikropml",
