@@ -1,4 +1,6 @@
 {
+ "ETag": "W/\"daca215ced624d92953c475dd08f95883fe148477006c25b55cb687c73b39894\"",
+ "Last-Modified": "Fri, 24 Jan 2025 16:21:43 GMT",
  "base": {
   "repo": {
    "name": "b3sum-feedstock"
@@ -15,11 +17,11 @@
  "id": 2297123094,
  "labels": [],
  "last_modified": null,
- "mergeable": null,
- "mergeable_state": "unknown",
+ "mergeable": true,
+ "mergeable_state": "unstable",
  "merged": false,
  "merged_at": null,
  "number": 9,
  "state": "open",
- "updated_at": "2025-01-24T16:20:15Z"
+ "updated_at": "2025-01-24T16:21:43Z"
 }
