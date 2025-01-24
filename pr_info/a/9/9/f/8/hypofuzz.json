@@ -1,0 +1,113 @@
+{
+ "PRed": [
+  {
+   "PR": {
+    "labels": [],
+    "number": 1,
+    "state": "closed"
+   },
+   "data": {
+    "bot_rerun": false,
+    "migrator_name": "Version",
+    "migrator_version": 0,
+    "version": "24.9.1"
+   },
+   "keys": [
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR": {
+    "__lazy_json__": "pr_json/2220962369.json"
+   },
+   "data": {
+    "bot_rerun": false,
+    "migrator_name": "Version",
+    "migrator_version": 0,
+    "version": "24.11.1"
+   },
+   "keys": [
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR": {
+    "__lazy_json__": "pr_json/2263037629.json"
+   },
+   "data": {
+    "bot_rerun": false,
+    "migrator_name": "Version",
+    "migrator_version": 0,
+    "version": "25.1.1"
+   },
+   "keys": [
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR": {
+    "__lazy_json__": "pr_json/2273025145.json"
+   },
+   "data": {
+    "bot_rerun": false,
+    "migrator_name": "Version",
+    "migrator_version": 0,
+    "version": "25.1.2"
+   },
+   "keys": [
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR": {
+    "__lazy_json__": "pr_json/2276299596.json"
+   },
+   "data": {
+    "bot_rerun": false,
+    "migrator_name": "NoarchPythonMinMigrator",
+    "migrator_version": 1,
+    "name": "noarch_python_min"
+   },
+   "keys": [
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "name"
+   ]
+  },
+  {
+   "PR": {
+    "__lazy_json__": "pr_json/2290219370.json"
+   },
+   "data": {
+    "bot_rerun": false,
+    "migrator_name": "Version",
+    "migrator_version": 0,
+    "version": "25.1.4"
+   },
+   "keys": [
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  }
+ ],
+ "bad": false,
+ "pinning_version": "2025.01.21.10.12.57",
+ "pre_pr_migrator_attempts": {},
+ "pre_pr_migrator_status": {},
+ "smithy_version": "3.45.3"
+}

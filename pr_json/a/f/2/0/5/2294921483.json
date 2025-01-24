@@ -1,0 +1,25 @@
+{
+ "base": {
+  "repo": {
+   "name": "tts-feedstock"
+  }
+ },
+ "closed_at": null,
+ "created_at": "2025-01-23T16:34:27Z",
+ "draft": false,
+ "e_tag": "\"202d91d289a0c2dc0627d49622f5056b3df62dbd2141102df4e0d344daecf430\"",
+ "head": {
+  "ref": "0.22.0_h6381fb"
+ },
+ "html_url": "https://github.com/conda-forge/tts-feedstock/pull/14",
+ "id": 2294921483,
+ "labels": [],
+ "last_modified": null,
+ "mergeable": null,
+ "mergeable_state": "unknown",
+ "merged": false,
+ "merged_at": null,
+ "number": 14,
+ "state": "open",
+ "updated_at": "2025-01-23T16:34:27Z"
+}

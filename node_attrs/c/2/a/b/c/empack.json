@@ -1,0 +1,247 @@
+{
+ "archived": false,
+ "branch": "main",
+ "conda-forge.yml": {
+  "conda_build": {
+   "pkg_format": "2"
+  },
+  "conda_forge_output_validation": true,
+  "github": {
+   "branch_name": "main",
+   "tooling_branch_name": "main"
+  }
+ },
+ "feedstock_name": "empack",
+ "hash_type": "sha256",
+ "linux_64_meta_yaml": {
+  "about": {
+   "dev_url": "https://github.com/emscripten-forge/empack",
+   "home": "https://github.com/emscripten-forge/empack",
+   "license": "MIT",
+   "license_family": "MIT",
+   "license_file": "LICENSE",
+   "summary": "CLI for packing a mamba environment with emsdk"
+  },
+  "build": {
+   "noarch": "python",
+   "number": "0",
+   "script": "PYTHON -m pip install . -vv"
+  },
+  "extra": {
+   "recipe-maintainers": [
+    "JohanMabille",
+    "DerThorsten",
+    "wolfv",
+    "martinRenou"
+   ]
+  },
+  "package": {
+   "name": "empack",
+   "version": "5.0.2"
+  },
+  "requirements": {
+   "host": [
+    "python >=3.6",
+    "pip",
+    "hatch"
+   ],
+   "run": [
+    "python >=3.6",
+    "typer",
+    "requests",
+    "appdirs",
+    "pyyaml",
+    "networkx"
+   ]
+  },
+  "schema_version": 0,
+  "source": {
+   "sha256": "621f6570ae3ed01e6e82b746e6ebfd05c7329d98a9e843e9b7ecd57fdc1551e4",
+   "url": "https://pypi.org/packages/source/e/empack/empack-5.0.2.tar.gz"
+  },
+  "test": {
+   "commands": [
+    "empack --help"
+   ],
+   "imports": [
+    "empack"
+   ]
+  }
+ },
+ "linux_64_requirements": {
+  "build": {
+   "__set__": true,
+   "elements": []
+  },
+  "host": {
+   "__set__": true,
+   "elements": [
+    "hatch",
+    "pip",
+    "python"
+   ]
+  },
+  "run": {
+   "__set__": true,
+   "elements": [
+    "appdirs",
+    "networkx",
+    "python",
+    "pyyaml",
+    "requests",
+    "typer"
+   ]
+  },
+  "test": {
+   "__set__": true,
+   "elements": []
+  }
+ },
+ "meta_yaml": {
+  "about": {
+   "dev_url": "https://github.com/emscripten-forge/empack",
+   "home": "https://github.com/emscripten-forge/empack",
+   "license": "MIT",
+   "license_family": "MIT",
+   "license_file": "LICENSE",
+   "summary": "CLI for packing a mamba environment with emsdk"
+  },
+  "build": {
+   "noarch": "python",
+   "number": "0",
+   "script": "PYTHON -m pip install . -vv"
+  },
+  "extra": {
+   "recipe-maintainers": [
+    "JohanMabille",
+    "DerThorsten",
+    "wolfv",
+    "martinRenou"
+   ]
+  },
+  "package": {
+   "name": "empack",
+   "version": "5.0.2"
+  },
+  "requirements": {
+   "host": [
+    "python >=3.6",
+    "pip",
+    "hatch"
+   ],
+   "run": [
+    "python >=3.6",
+    "typer",
+    "requests",
+    "appdirs",
+    "pyyaml",
+    "networkx"
+   ]
+  },
+  "schema_version": 0,
+  "source": {
+   "sha256": "621f6570ae3ed01e6e82b746e6ebfd05c7329d98a9e843e9b7ecd57fdc1551e4",
+   "url": "https://pypi.org/packages/source/e/empack/empack-5.0.2.tar.gz"
+  },
+  "test": {
+   "commands": [
+    "empack --help"
+   ],
+   "imports": [
+    "empack"
+   ]
+  }
+ },
+ "name": "empack",
+ "outputs_names": {
+  "__set__": true,
+  "elements": [
+   "empack"
+  ]
+ },
+ "parsing_error": false,
+ "platforms": [
+  "linux_64"
+ ],
+ "pr_info": {
+  "__lazy_json__": "pr_info/empack.json"
+ },
+ "raw_meta_yaml": "{% set name = \"empack\" %}\n{% set version = \"5.0.2\" %}\n\npackage:\n  name: {{ name|lower }}\n  version: {{ version }}\n\nsource:\n  url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz\n  sha256: 621f6570ae3ed01e6e82b746e6ebfd05c7329d98a9e843e9b7ecd57fdc1551e4\n\nbuild:\n  noarch: python\n  script: {{ PYTHON }} -m pip install . -vv\n  number: 0\n\nrequirements:\n  host:\n    - python >=3.6\n    - pip\n    - hatch\n  run:\n    - python >=3.6\n    - typer\n    - requests\n    - appdirs\n    - pyyaml\n    - networkx\n\ntest:\n  imports:\n    - empack\n  commands:\n    - empack --help\n\nabout:\n  home: https://github.com/emscripten-forge/empack\n  summary: CLI for packing a mamba environment with emsdk\n  license: MIT\n  license_family: MIT\n  license_file: LICENSE\n  dev_url: https://github.com/emscripten-forge/empack\n\nextra:\n  recipe-maintainers:\n    - JohanMabille\n    - DerThorsten\n    - wolfv\n    - martinRenou\n",
+ "req": {
+  "__set__": true,
+  "elements": [
+   "appdirs",
+   "hatch",
+   "networkx",
+   "pip",
+   "python",
+   "pyyaml",
+   "requests",
+   "typer"
+  ]
+ },
+ "requirements": {
+  "build": {
+   "__set__": true,
+   "elements": []
+  },
+  "host": {
+   "__set__": true,
+   "elements": [
+    "hatch",
+    "pip",
+    "python"
+   ]
+  },
+  "run": {
+   "__set__": true,
+   "elements": [
+    "appdirs",
+    "networkx",
+    "python",
+    "pyyaml",
+    "requests",
+    "typer"
+   ]
+  },
+  "test": {
+   "__set__": true,
+   "elements": []
+  }
+ },
+ "strong_exports": false,
+ "total_requirements": {
+  "build": {
+   "__set__": true,
+   "elements": []
+  },
+  "host": {
+   "__set__": true,
+   "elements": [
+    "hatch",
+    "pip",
+    "python >=3.6"
+   ]
+  },
+  "run": {
+   "__set__": true,
+   "elements": [
+    "appdirs",
+    "networkx",
+    "python >=3.6",
+    "pyyaml",
+    "requests",
+    "typer"
+   ]
+  },
+  "test": {
+   "__set__": true,
+   "elements": []
+  }
+ },
+ "url": "https://pypi.org/packages/source/e/empack/empack-5.0.2.tar.gz",
+ "version": "5.0.2",
+ "version_pr_info": {
+  "__lazy_json__": "version_pr_info/empack.json"
+ }
+}

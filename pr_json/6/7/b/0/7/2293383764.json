@@ -1,0 +1,27 @@
+{
+ "ETag": "W/\"f9c196ed00a2ed554b74660236fc5a41c5b2e91d95514edf1bd5742b069289c0\"",
+ "Last-Modified": "Fri, 24 Jan 2025 08:48:20 GMT",
+ "base": {
+  "repo": {
+   "name": "r-netmeta-feedstock"
+  }
+ },
+ "closed_at": "2025-01-24T08:48:20Z",
+ "created_at": "2025-01-23T01:05:35Z",
+ "draft": false,
+ "e_tag": "\"250d7c68d16a639df4534126d75359f067de0982b5a4f9c292f3a68d9952b151\"",
+ "head": {
+  "ref": "this_is_not_a_branch"
+ },
+ "html_url": "https://github.com/conda-forge/r-netmeta-feedstock/pull/11",
+ "id": 2293383764,
+ "labels": [],
+ "last_modified": null,
+ "mergeable": null,
+ "mergeable_state": "unknown",
+ "merged": true,
+ "merged_at": "2025-01-24T08:48:20Z",
+ "number": 11,
+ "state": "closed",
+ "updated_at": "2025-01-24T08:48:20Z"
+}

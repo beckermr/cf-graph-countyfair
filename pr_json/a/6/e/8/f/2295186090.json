@@ -1,0 +1,25 @@
+{
+ "base": {
+  "repo": {
+   "name": "r-matrix-feedstock"
+  }
+ },
+ "closed_at": null,
+ "created_at": "2025-01-23T18:53:12Z",
+ "draft": false,
+ "e_tag": "\"8159a7b7057aeec3a801dcbeb6abdc1bf4570ecaba1be4e1c1027ce33a871fa6\"",
+ "head": {
+  "ref": "1.7_2_hfa48ac"
+ },
+ "html_url": "https://github.com/conda-forge/r-matrix-feedstock/pull/47",
+ "id": 2295186090,
+ "labels": [],
+ "last_modified": null,
+ "mergeable": null,
+ "mergeable_state": "unknown",
+ "merged": false,
+ "merged_at": null,
+ "number": 47,
+ "state": "open",
+ "updated_at": "2025-01-23T18:53:12Z"
+}

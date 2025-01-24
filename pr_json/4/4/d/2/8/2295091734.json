@@ -1,0 +1,25 @@
+{
+ "base": {
+  "repo": {
+   "name": "napari-feedstock"
+  }
+ },
+ "closed_at": null,
+ "created_at": "2025-01-23T18:00:34Z",
+ "draft": false,
+ "e_tag": "\"7c63508c8bfbbf0f6063dbde9647828cc0d7c5c164c0ac99fcea7089d711e1f8\"",
+ "head": {
+  "ref": "0.5.6_h62f1b3"
+ },
+ "html_url": "https://github.com/conda-forge/napari-feedstock/pull/72",
+ "id": 2295091734,
+ "labels": [],
+ "last_modified": null,
+ "mergeable": null,
+ "mergeable_state": "unknown",
+ "merged": false,
+ "merged_at": null,
+ "number": 72,
+ "state": "open",
+ "updated_at": "2025-01-23T18:00:34Z"
+}

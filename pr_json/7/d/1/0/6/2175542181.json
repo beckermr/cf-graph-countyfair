@@ -1,0 +1,27 @@
+{
+ "ETag": "W/\"b4f2cecde1f667a22c4342922c624f05d97ebd7118ce26bacb84e29b9a598335\"",
+ "Last-Modified": "Thu, 23 Jan 2025 23:08:21 GMT",
+ "base": {
+  "repo": {
+   "name": "dadi-feedstock"
+  }
+ },
+ "closed_at": "2025-01-23T23:08:20Z",
+ "created_at": "2024-11-12T18:52:44Z",
+ "draft": false,
+ "e_tag": "\"17ad996a0ec91ef23666d57538b8beec09cc52b47c28b611eeedad939fb34663\"",
+ "head": {
+  "ref": "this_is_not_a_branch"
+ },
+ "html_url": "https://github.com/conda-forge/dadi-feedstock/pull/35",
+ "id": 2175542181,
+ "labels": [],
+ "last_modified": null,
+ "mergeable": null,
+ "mergeable_state": "unknown",
+ "merged": true,
+ "merged_at": "2025-01-23T23:08:20Z",
+ "number": 35,
+ "state": "closed",
+ "updated_at": "2025-01-23T23:08:21Z"
+}

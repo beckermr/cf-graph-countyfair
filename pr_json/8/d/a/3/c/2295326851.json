@@ -1,0 +1,25 @@
+{
+ "base": {
+  "repo": {
+   "name": "pymongoarrow-feedstock"
+  }
+ },
+ "closed_at": null,
+ "created_at": "2025-01-23T20:23:38Z",
+ "draft": false,
+ "e_tag": "\"2f54ab640adb7ac924305e603ac5796f4fd91df73bb7eae2ce1705bc22cf60c0\"",
+ "head": {
+  "ref": "1.6.3_h7c6709"
+ },
+ "html_url": "https://github.com/conda-forge/pymongoarrow-feedstock/pull/51",
+ "id": 2295326851,
+ "labels": [],
+ "last_modified": null,
+ "mergeable": null,
+ "mergeable_state": "unknown",
+ "merged": false,
+ "merged_at": null,
+ "number": 51,
+ "state": "open",
+ "updated_at": "2025-01-23T20:23:38Z"
+}

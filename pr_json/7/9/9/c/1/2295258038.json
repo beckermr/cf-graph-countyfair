@@ -1,0 +1,25 @@
+{
+ "base": {
+  "repo": {
+   "name": "harmony-py-feedstock"
+  }
+ },
+ "closed_at": null,
+ "created_at": "2025-01-23T19:38:38Z",
+ "draft": false,
+ "e_tag": "\"4eec982c52b99d43101cb86b3f02ed0e67c89c65b8bd7960414d54732687b84c\"",
+ "head": {
+  "ref": "0.6.0_h109218"
+ },
+ "html_url": "https://github.com/conda-forge/harmony-py-feedstock/pull/9",
+ "id": 2295258038,
+ "labels": [],
+ "last_modified": null,
+ "mergeable": null,
+ "mergeable_state": "unknown",
+ "merged": false,
+ "merged_at": null,
+ "number": 9,
+ "state": "open",
+ "updated_at": "2025-01-23T19:38:38Z"
+}

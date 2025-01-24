@@ -1,0 +1,25 @@
+{
+ "base": {
+  "repo": {
+   "name": "pygetm-feedstock"
+  }
+ },
+ "closed_at": null,
+ "created_at": "2025-01-23T17:24:24Z",
+ "draft": false,
+ "e_tag": "\"aa7058a1173832c6d2dca59a40874bc0cf2da986c5c33b2789f944f65834818d\"",
+ "head": {
+  "ref": "0.9.11_h874c46"
+ },
+ "html_url": "https://github.com/conda-forge/pygetm-feedstock/pull/12",
+ "id": 2295020863,
+ "labels": [],
+ "last_modified": null,
+ "mergeable": null,
+ "mergeable_state": "unknown",
+ "merged": false,
+ "merged_at": null,
+ "number": 12,
+ "state": "open",
+ "updated_at": "2025-01-23T17:24:24Z"
+}

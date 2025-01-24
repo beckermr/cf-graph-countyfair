@@ -1,0 +1,27 @@
+{
+ "ETag": "W/\"3a461283c72bdd6072e5c30ef6d9c7465df7041a8b2b544abfae3bdc537b3c94\"",
+ "Last-Modified": "Thu, 23 Jan 2025 21:53:45 GMT",
+ "base": {
+  "repo": {
+   "name": "cmyt-feedstock"
+  }
+ },
+ "closed_at": "2025-01-23T21:53:45Z",
+ "created_at": "2025-01-23T21:33:47Z",
+ "draft": false,
+ "e_tag": "\"d83b0bde19324ed6c76ab3d29f9e29cf5071cdf2be135f8949683e4cc886c6c8\"",
+ "head": {
+  "ref": "2.0.2_hc67d3a"
+ },
+ "html_url": "https://github.com/conda-forge/cmyt-feedstock/pull/17",
+ "id": 2295445215,
+ "labels": [],
+ "last_modified": null,
+ "mergeable": true,
+ "mergeable_state": "clean",
+ "merged": false,
+ "merged_at": null,
+ "number": 17,
+ "state": "closed",
+ "updated_at": "2025-01-23T21:53:45Z"
+}

@@ -1,0 +1,27 @@
+{
+ "ETag": "W/\"7b48c754b3bee83e600fa9d629efdc9a349dc5face235825e1a9f6daee420b19\"",
+ "Last-Modified": "Wed, 22 Jan 2025 01:11:00 GMT",
+ "base": {
+  "repo": {
+   "name": "openmm-setup-feedstock"
+  }
+ },
+ "closed_at": null,
+ "created_at": "2025-01-21T12:27:07Z",
+ "draft": false,
+ "e_tag": "\"c1aac42c225f2288afc25f9b05194963970dd233bddf6a43919cfa5a3f243cdc\"",
+ "head": {
+  "ref": "noarch_python_min-migration-1_hdb5cdb"
+ },
+ "html_url": "https://github.com/conda-forge/openmm-setup-feedstock/pull/4",
+ "id": 2289863958,
+ "labels": [],
+ "last_modified": null,
+ "mergeable": true,
+ "mergeable_state": "clean",
+ "merged": false,
+ "merged_at": null,
+ "number": 4,
+ "state": "open",
+ "updated_at": "2025-01-22T01:11:00Z"
+}

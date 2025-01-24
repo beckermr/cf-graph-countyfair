@@ -1,0 +1,27 @@
+{
+ "ETag": "W/\"be99b9870b7da426892c3e9c1a53c956753f549960e31f2e4674f943c1f0a00a\"",
+ "Last-Modified": "Fri, 24 Jan 2025 07:11:28 GMT",
+ "base": {
+  "repo": {
+   "name": "su2-feedstock"
+  }
+ },
+ "closed_at": "2025-01-24T07:11:27Z",
+ "created_at": "2025-01-23T17:44:07Z",
+ "draft": false,
+ "e_tag": "\"431f41e3fa13b24fb803605dbc2e2ed700318da734bc236438f94cd8f15a31e1\"",
+ "head": {
+  "ref": "rebuild-openmpi5-0-1_hd6c8fa"
+ },
+ "html_url": "https://github.com/conda-forge/su2-feedstock/pull/1",
+ "id": 2295057121,
+ "labels": [],
+ "last_modified": null,
+ "mergeable": true,
+ "mergeable_state": "clean",
+ "merged": false,
+ "merged_at": null,
+ "number": 1,
+ "state": "closed",
+ "updated_at": "2025-01-24T07:11:28Z"
+}

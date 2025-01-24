@@ -1,0 +1,25 @@
+{
+ "base": {
+  "repo": {
+   "name": "st-annotated-text-feedstock"
+  }
+ },
+ "closed_at": null,
+ "created_at": "2025-01-23T19:02:57Z",
+ "draft": false,
+ "e_tag": "\"695c0169f560e4d8e11d9742af5206d772eab07cd675849b3cf83b9184c3ab19\"",
+ "head": {
+  "ref": "4.0.2_h7c384d"
+ },
+ "html_url": "https://github.com/conda-forge/st-annotated-text-feedstock/pull/5",
+ "id": 2295201750,
+ "labels": [],
+ "last_modified": null,
+ "mergeable": null,
+ "mergeable_state": "unknown",
+ "merged": false,
+ "merged_at": null,
+ "number": 5,
+ "state": "open",
+ "updated_at": "2025-01-23T19:02:57Z"
+}

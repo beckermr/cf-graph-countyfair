@@ -1,0 +1,27 @@
+{
+ "ETag": "W/\"f0e55059f749f894670ac7a778879578e144c08e0aa9ec26c899253787b4a780\"",
+ "Last-Modified": "Wed, 22 Jan 2025 02:42:52 GMT",
+ "base": {
+  "repo": {
+   "name": "llvmdev-feedstock"
+  }
+ },
+ "closed_at": null,
+ "created_at": "2025-01-22T02:07:55Z",
+ "draft": false,
+ "e_tag": "\"15287a2f5760bb156acd65948ba8f04717c71f80317b9471e2430e877e889dd2\"",
+ "head": {
+  "ref": "noarch_python_min-migration-1_ha335ad"
+ },
+ "html_url": "https://github.com/conda-forge/llvmdev-feedstock/pull/308",
+ "id": 2291181875,
+ "labels": [],
+ "last_modified": null,
+ "mergeable": true,
+ "mergeable_state": "unstable",
+ "merged": false,
+ "merged_at": null,
+ "number": 308,
+ "state": "open",
+ "updated_at": "2025-01-22T02:42:52Z"
+}

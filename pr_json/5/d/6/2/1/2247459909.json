@@ -1,0 +1,27 @@
+{
+ "ETag": "W/\"50516757c127627715ae01f1c016e8765d80cbefccd7c8c4128de3da505b2df9\"",
+ "Last-Modified": "Mon, 23 Dec 2024 12:34:09 GMT",
+ "base": {
+  "repo": {
+   "name": "terraform-ls-feedstock"
+  }
+ },
+ "closed_at": null,
+ "created_at": "2024-12-20T22:25:48Z",
+ "draft": false,
+ "e_tag": "\"96a79d62aeac11f48247d412fe55c242f566a5bfc95ba85de1f9eee1de31bfcc\"",
+ "head": {
+  "ref": "0.36.3_h9b8383"
+ },
+ "html_url": "https://github.com/conda-forge/terraform-ls-feedstock/pull/7",
+ "id": 2247459909,
+ "labels": [],
+ "last_modified": null,
+ "mergeable": true,
+ "mergeable_state": "unstable",
+ "merged": false,
+ "merged_at": null,
+ "number": 7,
+ "state": "open",
+ "updated_at": "2024-12-23T12:34:09Z"
+}

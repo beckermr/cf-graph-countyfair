@@ -1,0 +1,27 @@
+{
+ "ETag": "W/\"7bb75f5b0fa33cfe733fb9e246aa01ce95e31207c4c832e646df149e0f02d89f\"",
+ "Last-Modified": "Thu, 23 Jan 2025 13:47:28 GMT",
+ "base": {
+  "repo": {
+   "name": "ansys-rocky-core-feedstock"
+  }
+ },
+ "closed_at": null,
+ "created_at": "2025-01-23T13:45:51Z",
+ "draft": false,
+ "e_tag": "\"138ed99f4bb69511a41cfbfb31d9f8ba3890bed12349e116023b96388181f76c\"",
+ "head": {
+  "ref": "0.3.2_hf87d47"
+ },
+ "html_url": "https://github.com/conda-forge/ansys-rocky-core-feedstock/pull/1",
+ "id": 2294536830,
+ "labels": [],
+ "last_modified": null,
+ "mergeable": true,
+ "mergeable_state": "unstable",
+ "merged": false,
+ "merged_at": null,
+ "number": 1,
+ "state": "open",
+ "updated_at": "2025-01-23T13:47:28Z"
+}

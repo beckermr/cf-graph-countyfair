@@ -1,0 +1,25 @@
+{
+ "base": {
+  "repo": {
+   "name": "freetds-feedstock"
+  }
+ },
+ "closed_at": null,
+ "created_at": "2025-01-23T18:13:36Z",
+ "draft": false,
+ "e_tag": "\"c61904c894fa843b875f9eb375af2fefa9e26742a4009b137f39a0c932a21f13\"",
+ "head": {
+  "ref": "1.4.25_h08fea4"
+ },
+ "html_url": "https://github.com/conda-forge/freetds-feedstock/pull/58",
+ "id": 2295115675,
+ "labels": [],
+ "last_modified": null,
+ "mergeable": null,
+ "mergeable_state": "unknown",
+ "merged": false,
+ "merged_at": null,
+ "number": 58,
+ "state": "open",
+ "updated_at": "2025-01-23T18:13:36Z"
+}

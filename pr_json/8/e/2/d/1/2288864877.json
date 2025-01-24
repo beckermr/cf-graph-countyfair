@@ -1,0 +1,27 @@
+{
+ "ETag": "W/\"2229d1743a60d32dcf93bdabdd1142356532120c8df60df2f9e2197f473fcfbc\"",
+ "Last-Modified": "Tue, 21 Jan 2025 03:17:29 GMT",
+ "base": {
+  "repo": {
+   "name": "geotile-feedstock"
+  }
+ },
+ "closed_at": null,
+ "created_at": "2025-01-21T03:15:58Z",
+ "draft": false,
+ "e_tag": "\"d91f0efd36ebfead82096fcf5dca24e8e122cd9d719b94db1f8bdb79ab6d4e30\"",
+ "head": {
+  "ref": "noarch_python_min-migration-1_hb521f8"
+ },
+ "html_url": "https://github.com/conda-forge/geotile-feedstock/pull/18",
+ "id": 2288864877,
+ "labels": [],
+ "last_modified": null,
+ "mergeable": true,
+ "mergeable_state": "unstable",
+ "merged": false,
+ "merged_at": null,
+ "number": 18,
+ "state": "open",
+ "updated_at": "2025-01-21T03:17:29Z"
+}

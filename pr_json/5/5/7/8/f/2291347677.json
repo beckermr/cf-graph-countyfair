@@ -1,0 +1,27 @@
+{
+ "ETag": "W/\"76a3d9e8978f58d5ab3cf3b32dbd9c7929f70378ee347813fa47a553bf9880e4\"",
+ "Last-Modified": "Fri, 24 Jan 2025 02:10:23 GMT",
+ "base": {
+  "repo": {
+   "name": "tpot2-feedstock"
+  }
+ },
+ "closed_at": null,
+ "created_at": "2025-01-22T05:00:33Z",
+ "draft": false,
+ "e_tag": "\"03b9448895581b4f1af23458ca0b0da98e6d83e3a00e9ba2a85ebdea620e4223\"",
+ "head": {
+  "ref": "0.1.9a0_h868d36"
+ },
+ "html_url": "https://github.com/conda-forge/tpot2-feedstock/pull/21",
+ "id": 2291347677,
+ "labels": [],
+ "last_modified": null,
+ "mergeable": true,
+ "mergeable_state": "clean",
+ "merged": false,
+ "merged_at": null,
+ "number": 21,
+ "state": "open",
+ "updated_at": "2025-01-24T02:10:23Z"
+}

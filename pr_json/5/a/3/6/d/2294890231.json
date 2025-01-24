@@ -1,0 +1,27 @@
+{
+ "ETag": "W/\"86baebba4fb258a154e6730275dc791ab23aac26999ff5848d0d5ceaa9f5116a\"",
+ "Last-Modified": "Thu, 23 Jan 2025 16:21:55 GMT",
+ "base": {
+  "repo": {
+   "name": "ndcurves-feedstock"
+  }
+ },
+ "closed_at": null,
+ "created_at": "2025-01-23T16:20:26Z",
+ "draft": false,
+ "e_tag": "\"3a6f896345953e378e1e292a876d3c7ae222e62442b8a43190d2d88a0351bfe8\"",
+ "head": {
+  "ref": "rebuild-python313-0-1_hf564f5"
+ },
+ "html_url": "https://github.com/conda-forge/ndcurves-feedstock/pull/3",
+ "id": 2294890231,
+ "labels": [],
+ "last_modified": null,
+ "mergeable": true,
+ "mergeable_state": "clean",
+ "merged": false,
+ "merged_at": null,
+ "number": 3,
+ "state": "open",
+ "updated_at": "2025-01-23T16:21:55Z"
+}

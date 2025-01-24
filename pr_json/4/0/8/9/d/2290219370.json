@@ -1,0 +1,27 @@
+{
+ "ETag": "W/\"601b7e120030f0fe60a84dc55295c9933d73073ea08a5890e3e98434333f753c\"",
+ "Last-Modified": "Tue, 21 Jan 2025 15:07:34 GMT",
+ "base": {
+  "repo": {
+   "name": "hypofuzz-feedstock"
+  }
+ },
+ "closed_at": null,
+ "created_at": "2025-01-21T15:06:09Z",
+ "draft": false,
+ "e_tag": "\"15c6d0eb3fa2903592a3c959b5378ce40aa61b9434d6c2cc8db69b27dbb2412e\"",
+ "head": {
+  "ref": "25.1.4_h6fdfb9"
+ },
+ "html_url": "https://github.com/conda-forge/hypofuzz-feedstock/pull/6",
+ "id": 2290219370,
+ "labels": [],
+ "last_modified": null,
+ "mergeable": true,
+ "mergeable_state": "unstable",
+ "merged": false,
+ "merged_at": null,
+ "number": 6,
+ "state": "open",
+ "updated_at": "2025-01-21T15:07:34Z"
+}

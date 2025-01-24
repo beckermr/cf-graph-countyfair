@@ -1,0 +1,25 @@
+{
+ "base": {
+  "repo": {
+   "name": "activity-browser-feedstock"
+  }
+ },
+ "closed_at": null,
+ "created_at": "2025-01-23T21:06:06Z",
+ "draft": false,
+ "e_tag": "\"a52738189a66800a24dc147a867d5e938d92ae76c36bafdfe41b5cbb98ed90a9\"",
+ "head": {
+  "ref": "2.11.1_hcbc329"
+ },
+ "html_url": "https://github.com/conda-forge/activity-browser-feedstock/pull/46",
+ "id": 2295393208,
+ "labels": [],
+ "last_modified": null,
+ "mergeable": null,
+ "mergeable_state": "unknown",
+ "merged": false,
+ "merged_at": null,
+ "number": 46,
+ "state": "open",
+ "updated_at": "2025-01-23T21:06:06Z"
+}

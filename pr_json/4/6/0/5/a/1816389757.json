@@ -1,0 +1,25 @@
+{
+ "ETag": "W/\"799f01653adb90d7df35b73aed9050e75ee9fd860757e8837412b28708210e42\"",
+ "Last-Modified": "Wed, 07 Aug 2024 05:03:31 GMT",
+ "base": {
+  "repo": {
+   "name": "mongodb-feedstock"
+  }
+ },
+ "closed_at": null,
+ "created_at": "2024-04-10T16:02:19Z",
+ "draft": true,
+ "head": {
+  "ref": "7.2.0_h42cae7"
+ },
+ "html_url": "https://github.com/conda-forge/mongodb-feedstock/pull/90",
+ "id": 1816389757,
+ "labels": [],
+ "mergeable": false,
+ "mergeable_state": "dirty",
+ "merged": false,
+ "merged_at": null,
+ "number": 90,
+ "state": "open",
+ "updated_at": "2024-08-07T05:03:31Z"
+}
