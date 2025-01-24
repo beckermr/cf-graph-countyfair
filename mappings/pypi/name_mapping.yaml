@@ -24534,10 +24534,6 @@
   import_name: minimal_molview
   mapping_source: regro-bot
   pypi_name: minimal-molview
-- conda_name: minimalkv
-  import_name: minimalkv
-  mapping_source: regro-bot
-  pypi_name: minimalkv
 - conda_name: minimalmodbus
   import_name: minimalmodbus
   mapping_source: regro-bot
