@@ -437,6 +437,8 @@
     "aria-tools": {
       "immediate_children": [],
       "num_descendants": 0,
+      "pr_status": "",
+      "pr_url": "https://github.com/conda-forge/aria-tools-feedstock",
       "pre_pr_migrator_status": ""
     },
     "arm_pyart": {
@@ -33020,9 +33022,7 @@
     "geohexviz",
     "scilab"
   ],
-  "awaiting-pr": [
-    "aria-tools"
-  ],
+  "awaiting-pr": [],
   "bot-error": [
     "proj4",
     "mediainfo",
@@ -35506,6 +35506,7 @@
     "asv",
     "arosics",
     "geowombat",
+    "aria-tools",
     "arcjetcv",
     "apache-beam",
     "allennlp",
