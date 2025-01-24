@@ -1,15 +1,17 @@
 {
+ "ETag": "W/\"79c2d55789fc8ecc9970262f2b01f91dedce58774782f002275be899cafb5ee4\"",
+ "Last-Modified": "Fri, 24 Jan 2025 15:52:43 GMT",
  "base": {
   "repo": {
    "name": "r-twang-feedstock"
   }
  },
- "closed_at": null,
+ "closed_at": "2025-01-24T15:52:38Z",
  "created_at": "2025-01-24T15:37:03Z",
  "draft": false,
  "e_tag": "\"f59b6b02c99d8649f4f58a2f401192c353a8537d9817b18093b5ae5db471176c\"",
  "head": {
-  "ref": "rebuild-r-base44_and_m2w64-ucrt-0-1_h58123f"
+  "ref": "this_is_not_a_branch"
  },
  "html_url": "https://github.com/conda-forge/r-twang-feedstock/pull/4",
  "id": 2297046699,
@@ -17,9 +19,9 @@
  "last_modified": null,
  "mergeable": null,
  "mergeable_state": "unknown",
- "merged": false,
- "merged_at": null,
+ "merged": true,
+ "merged_at": "2025-01-24T15:52:38Z",
  "number": 4,
- "state": "open",
- "updated_at": "2025-01-24T15:37:03Z"
+ "state": "closed",
+ "updated_at": "2025-01-24T15:52:43Z"
 }
