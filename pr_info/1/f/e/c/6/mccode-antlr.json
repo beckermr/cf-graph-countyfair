@@ -2,7 +2,9 @@
  "PRed": [
   {
    "PR": {
-    "__lazy_json__": "pr_json/8dcaed57-37f1-470d-a34b-9edd558d488b.json"
+    "labels": [],
+    "number": null,
+    "state": "closed"
    },
    "data": {
     "bot_rerun": false,
