@@ -1,12 +1,12 @@
 {
- "ETag": "W/\"7a42925e774ef6edbbb3dbae9cd242422fad2e5bfb89ce0df220f5a00f9ff99a\"",
- "Last-Modified": "Wed, 22 Jan 2025 16:31:20 GMT",
+ "ETag": "W/\"dafebe658bfa6b7761992c6217adf2442677553e74faa16a94b9ab1a90ae59df\"",
+ "Last-Modified": "Fri, 24 Jan 2025 15:16:38 GMT",
  "base": {
   "repo": {
    "name": "minuit2-feedstock"
   }
  },
- "closed_at": null,
+ "closed_at": "2025-01-24T15:16:38Z",
  "created_at": "2025-01-22T14:34:35Z",
  "draft": false,
  "e_tag": "\"1f647692e751a37787758b4c2dffa4d9dee477f582cb9432ef881aaaafc5478a\"",
@@ -22,6 +22,6 @@
  "merged": false,
  "merged_at": null,
  "number": 33,
- "state": "open",
- "updated_at": "2025-01-22T16:31:20Z"
+ "state": "closed",
+ "updated_at": "2025-01-24T15:16:38Z"
 }
