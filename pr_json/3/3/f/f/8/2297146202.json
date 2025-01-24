@@ -1,4 +1,6 @@
 {
+ "ETag": "W/\"becd6914e128e97e11a2e016240bece824625b163975bae4c7d13d9e8f63d128\"",
+ "Last-Modified": "Fri, 24 Jan 2025 16:35:17 GMT",
  "base": {
   "repo": {
    "name": "connectorx-feedstock"
@@ -15,11 +17,11 @@
  "id": 2297146202,
  "labels": [],
  "last_modified": null,
- "mergeable": null,
- "mergeable_state": "unknown",
+ "mergeable": true,
+ "mergeable_state": "unstable",
  "merged": false,
  "merged_at": null,
  "number": 41,
  "state": "open",
- "updated_at": "2025-01-24T16:33:44Z"
+ "updated_at": "2025-01-24T16:35:17Z"
 }
