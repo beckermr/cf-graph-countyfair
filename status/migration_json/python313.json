@@ -22698,6 +22698,8 @@
     "ogs": {
       "immediate_children": [],
       "num_descendants": 0,
+      "pr_status": "unknown",
+      "pr_url": "https://github.com/conda-forge/ogs-feedstock/pull/8",
       "pre_pr_migrator_status": ""
     },
     "ojph": {
@@ -41803,7 +41805,6 @@
     "ssh2-python",
     "itk-meshtopolydata",
     "faster-coco-eval",
-    "ogs",
     "ecflow",
     "tomviz"
   ],
@@ -43839,6 +43840,7 @@
     "otsubsetinverse",
     "otpmml",
     "openimageio",
+    "ogs",
     "odil",
     "stellarmesh",
     "nuflux",
