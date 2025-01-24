@@ -6291,6 +6291,27 @@
     "migrator_version",
     "name"
    ]
+  },
+  {
+   "PR": {
+    "__lazy_json__": "pr_json/88ec1f1b-96e9-448f-98c2-4bb1d96565a4.json"
+   },
+   "data": {
+    "bot_rerun": false,
+    "branch": "2.26.x",
+    "migrator_name": "MigrationYaml",
+    "migrator_object_version": 1,
+    "migrator_version": 0,
+    "name": "aws_sdk_cpp111489"
+   },
+   "keys": [
+    "bot_rerun",
+    "branch",
+    "migrator_name",
+    "migrator_object_version",
+    "migrator_version",
+    "name"
+   ]
   }
  ],
  "bad": false,
