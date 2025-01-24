@@ -781,6 +781,7 @@
     "awscli",
     "awscli2",
     "axial-positional-embedding",
+    "b2sdk",
     "bagels",
     "boto3",
     "boto3-stubs",
