@@ -1309,6 +1309,7 @@
   "awaiting-parents": [
     "elsi",
     "libmbd",
+    "su2",
     "swan",
     "qe",
     "scifem",
@@ -1316,9 +1317,7 @@
     "cp2k",
     "dftbplus"
   ],
-  "awaiting-pr": [
-    "su2"
-  ],
+  "awaiting-pr": [],
   "bot-error": [],
   "done": [
     "zoltan",
