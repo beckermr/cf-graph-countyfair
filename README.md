@@ -11,3 +11,4 @@ Please open issues in [cf-scripts](https://github.com/regro/cf-scripts/issues).
 ## code snippets to test building the graph
 
 See the [notebook](https://github.com/regro/cf-graph-countyfair/blob/master/example.ipynb) for example code on how to load and interact with the graph.
+blah
