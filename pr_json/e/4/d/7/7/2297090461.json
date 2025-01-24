@@ -1,6 +1,6 @@
 {
- "ETag": "W/\"ff4af863f2d045f2df6515465b7456669fe9b7428a5ea8d1029e0d00d1dd6008\"",
- "Last-Modified": "Fri, 24 Jan 2025 16:44:21 GMT",
+ "ETag": "W/\"2a346ce247e6103fff7349e4b5f4288e14c612ef6ea421af54648bbe230b4418\"",
+ "Last-Modified": "Fri, 24 Jan 2025 16:44:55 GMT",
  "base": {
   "repo": {
    "name": "odbc2parquet-feedstock"
@@ -23,5 +23,5 @@
  "merged_at": "2025-01-24T16:44:21Z",
  "number": 31,
  "state": "closed",
- "updated_at": "2025-01-24T16:44:21Z"
+ "updated_at": "2025-01-24T16:44:55Z"
 }
