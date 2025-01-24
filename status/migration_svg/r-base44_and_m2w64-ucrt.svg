@@ -457,9 +457,9 @@
 <!-- r&#45;modeltime -->
 <g id="node39" class="node">
 <title>r&#45;modeltime</title>
-<g id="a_node39"><a xlink:href="https://github.com/conda-forge/r-modeltime-feedstock" xlink:title="r modeltime">
-<ellipse fill="#35b779" stroke="black" cx="1270.43" cy="-754" rx="72.25" ry="18"/>
-<text text-anchor="middle" x="1270.43" y="-749.33" font-family="Times,serif" font-size="14.00">r modeltime</text>
+<g id="a_node39"><a xlink:href="https://github.com/conda-forge/r-modeltime-feedstock/pull/21" xlink:title="r modeltime ❎">
+<ellipse fill="#31688e" stroke="black" cx="1270.43" cy="-754" rx="87.51" ry="18"/>
+<text text-anchor="middle" x="1270.43" y="-749.33" font-family="Times,serif" font-size="14.00" fill="white">r modeltime ❎</text>
 </a>
 </g>
 </g>
@@ -475,8 +475,8 @@
 <!-- r&#45;modeltime&#45;&gt;r&#45;modeltime.resample -->
 <g id="edge34" class="edge">
 <title>r&#45;modeltime&#45;&gt;r&#45;modeltime.resample</title>
-<path fill="none" stroke="black" d="M1252.65,-736.41C1243.52,-727.88 1232.2,-717.32 1222.04,-707.84"/>
-<polygon fill="black" stroke="black" points="1224.66,-705.5 1214.96,-701.23 1219.89,-710.62 1224.66,-705.5"/>
+<path fill="none" stroke="black" d="M1252.27,-736.05C1243.29,-727.67 1232.26,-717.38 1222.32,-708.1"/>
+<polygon fill="black" stroke="black" points="1224.74,-705.57 1215.04,-701.31 1219.97,-710.69 1224.74,-705.57"/>
 </g>
 <!-- r&#45;modeltime.ensemble -->
 <g id="node41" class="node">
@@ -490,7 +490,7 @@
 <!-- r&#45;modeltime&#45;&gt;r&#45;modeltime.ensemble -->
 <g id="edge35" class="edge">
 <title>r&#45;modeltime&#45;&gt;r&#45;modeltime.ensemble</title>
-<path fill="none" stroke="black" d="M1295.38,-736.74C1307.16,-727.53 1320.02,-714.88 1326.43,-700 1332.75,-685.3 1332.75,-678.7 1326.43,-664 1321.74,-653.12 1313.61,-643.43 1304.96,-635.4"/>
+<path fill="none" stroke="black" d="M1295.67,-736.51C1307.38,-727.32 1320.08,-714.75 1326.43,-700 1332.75,-685.3 1332.75,-678.7 1326.43,-664 1321.74,-653.12 1313.61,-643.43 1304.96,-635.4"/>
 <polygon fill="black" stroke="black" points="1307.28,-632.78 1297.41,-628.94 1302.73,-638.1 1307.28,-632.78"/>
 </g>
 <!-- r&#45;modeltime.resample&#45;&gt;r&#45;modeltime.ensemble -->
@@ -609,17 +609,17 @@
 <!-- r&#45;autostats -->
 <g id="node51" class="node">
 <title>r&#45;autostats</title>
-<g id="a_node51"><a xlink:href="https://github.com/conda-forge/r-autostats-feedstock" xlink:title="r autostats">
-<ellipse fill="#35b779" stroke="black" cx="414.42" cy="-278" rx="65.94" ry="18"/>
-<text text-anchor="middle" x="414.42" y="-273.32" font-family="Times,serif" font-size="14.00">r autostats</text>
+<g id="a_node51"><a xlink:href="https://github.com/conda-forge/r-autostats-feedstock/pull/6" xlink:title="r autostats ❎">
+<ellipse fill="#31688e" stroke="black" cx="414.42" cy="-278" rx="81.2" ry="18"/>
+<text text-anchor="middle" x="414.42" y="-273.32" font-family="Times,serif" font-size="14.00" fill="white">r autostats ❎</text>
 </a>
 </g>
 </g>
 <!-- r&#45;autostats&#45;&gt;r&#45;tidybins -->
 <g id="edge44" class="edge">
 <title>r&#45;autostats&#45;&gt;r&#45;tidybins</title>
-<path fill="none" stroke="black" d="M403.77,-260.05C398.75,-252.06 392.63,-242.33 387.02,-233.4"/>
-<polygon fill="black" stroke="black" points="390.07,-231.67 381.78,-225.07 384.14,-235.4 390.07,-231.67"/>
+<path fill="none" stroke="black" d="M403.55,-259.7C398.64,-251.9 392.74,-242.51 387.29,-233.83"/>
+<polygon fill="black" stroke="black" points="390.27,-231.99 381.98,-225.39 384.34,-235.71 390.27,-231.99"/>
 </g>
 <!-- r&#45;autostats&#45;&gt;r&#45;tidyconsultant -->
 <g id="edge45" class="edge">
@@ -684,9 +684,9 @@
 <!-- r&#45;twang -->
 <g id="node57" class="node">
 <title>r&#45;twang</title>
-<g id="a_node57"><a xlink:href="https://github.com/conda-forge/r-twang-feedstock" xlink:title="r twang">
-<ellipse fill="#35b779" stroke="black" cx="1233.72" cy="-242" rx="50.16" ry="18"/>
-<text text-anchor="middle" x="1233.72" y="-237.32" font-family="Times,serif" font-size="14.00">r twang</text>
+<g id="a_node57"><a xlink:href="https://github.com/conda-forge/r-twang-feedstock/pull/4" xlink:title="r twang ❎">
+<ellipse fill="#31688e" stroke="black" cx="1233.72" cy="-242" rx="65.41" ry="18"/>
+<text text-anchor="middle" x="1233.72" y="-237.32" font-family="Times,serif" font-size="14.00" fill="white">r twang ❎</text>
 </a>
 </g>
 </g>
