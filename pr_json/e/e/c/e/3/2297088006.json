@@ -1,0 +1,25 @@
+{
+ "base": {
+  "repo": {
+   "name": "boto3-stubs-feedstock"
+  }
+ },
+ "closed_at": null,
+ "created_at": "2025-01-24T15:59:56Z",
+ "draft": false,
+ "e_tag": "\"e5138ac6bccc3358b18b73b3e0c68ad0a3457c284f961c43591459da15eaf8b3\"",
+ "head": {
+  "ref": "1.36.5_he6d16d"
+ },
+ "html_url": "https://github.com/conda-forge/boto3-stubs-feedstock/pull/906",
+ "id": 2297088006,
+ "labels": [],
+ "last_modified": null,
+ "mergeable": null,
+ "mergeable_state": "unknown",
+ "merged": false,
+ "merged_at": null,
+ "number": 906,
+ "state": "open",
+ "updated_at": "2025-01-24T15:59:56Z"
+}
