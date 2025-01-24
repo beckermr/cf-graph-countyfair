@@ -892,7 +892,6 @@
     "pynucastro",
     "pypalettes",
     "pypolymlp",
-    "pyquil",
     "pyshacl",
     "pystac",
     "pytest-textual-snapshot",
