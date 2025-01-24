@@ -1985,6 +1985,8 @@
     "faster-coco-eval": {
       "immediate_children": [],
       "num_descendants": 0,
+      "pr_status": "unknown",
+      "pr_url": "https://github.com/conda-forge/faster-coco-eval-feedstock/pull/14",
       "pre_pr_migrator_status": ""
     },
     "fastparquet": {
@@ -9586,9 +9588,7 @@
     "meld",
     "caiman"
   ],
-  "awaiting-pr": [
-    "faster-coco-eval"
-  ],
+  "awaiting-pr": [],
   "bot-error": [],
   "done": [
     "zmesh",
@@ -10333,6 +10333,7 @@
     "xcape",
     "vaex-core",
     "geocat-f2py",
+    "faster-coco-eval",
     "cyavro",
     "copulae",
     "cesium",
