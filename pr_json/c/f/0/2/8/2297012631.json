@@ -1,6 +1,6 @@
 {
- "ETag": "W/\"7f956d65e37d4f1d4ca5ba68074a37e9ea7bc5aa5f91cc8a882bf4ba997de4c4\"",
- "Last-Modified": "Fri, 24 Jan 2025 16:01:59 GMT",
+ "ETag": "W/\"b8ee0b938720b651a17f78a3c8363534309ebc966dc2581b05aaeef055b2f5d4\"",
+ "Last-Modified": "Fri, 24 Jan 2025 16:15:15 GMT",
  "base": {
   "repo": {
    "name": "arcticdb-feedstock"
@@ -15,17 +15,7 @@
  },
  "html_url": "https://github.com/conda-forge/arcticdb-feedstock/pull/386",
  "id": 2297012631,
- "labels": [
-  {
-   "color": "0e8a16",
-   "default": false,
-   "description": "Merge the PR when CI passes",
-   "id": 5546366668,
-   "name": "automerge",
-   "node_id": "LA_kwDOJno8Ks8AAAABSpbWzA",
-   "url": "https://api.github.com/repos/conda-forge/arcticdb-feedstock/labels/automerge"
-  }
- ],
+ "labels": [],
  "last_modified": null,
  "mergeable": true,
  "mergeable_state": "unstable",
@@ -33,5 +23,5 @@
  "merged_at": null,
  "number": 386,
  "state": "open",
- "updated_at": "2025-01-24T16:01:59Z"
+ "updated_at": "2025-01-24T16:15:15Z"
 }
