@@ -1,12 +1,12 @@
 {
- "ETag": "W/\"1175e3dbd3df8b3a988e0d56d476d8b11c7e175ca12f942c052165fefcb2f9cf\"",
- "Last-Modified": "Wed, 10 Apr 2024 13:15:22 GMT",
+ "ETag": "W/\"eb8f77e4ed46d5abd2f1a9b7b8363765c33b22e0859683dc7755232cbce27263\"",
+ "Last-Modified": "Fri, 24 Jan 2025 10:34:11 GMT",
  "base": {
   "repo": {
    "name": "s3cmd-feedstock"
   }
  },
- "closed_at": null,
+ "closed_at": "2025-01-24T10:34:11Z",
  "created_at": "2020-04-07T22:31:52Z",
  "draft": false,
  "head": {
@@ -15,11 +15,11 @@
  "html_url": "https://github.com/conda-forge/s3cmd-feedstock/pull/1",
  "id": 400534427,
  "labels": [],
- "mergeable": true,
- "mergeable_state": "clean",
+ "mergeable": null,
+ "mergeable_state": "unknown",
  "merged": false,
  "merged_at": null,
  "number": 1,
- "state": "open",
- "updated_at": "2022-03-14T11:11:17Z"
+ "state": "closed",
+ "updated_at": "2025-01-24T10:34:11Z"
 }
