@@ -1,0 +1,25 @@
+{
+ "base": {
+  "repo": {
+   "name": "arcticdb-feedstock"
+  }
+ },
+ "closed_at": null,
+ "created_at": "2025-01-24T15:20:48Z",
+ "draft": false,
+ "e_tag": "\"f4a24b770913e44cb9cd671b5aa8e703cae8b05873982dea8a5f80f693bda12b\"",
+ "head": {
+  "ref": "rebuild-aws_sdk_cpp111489-0-1_hb3779c"
+ },
+ "html_url": "https://github.com/conda-forge/arcticdb-feedstock/pull/387",
+ "id": 2297014958,
+ "labels": [],
+ "last_modified": null,
+ "mergeable": null,
+ "mergeable_state": "unknown",
+ "merged": false,
+ "merged_at": null,
+ "number": 387,
+ "state": "open",
+ "updated_at": "2025-01-24T15:20:48Z"
+}
