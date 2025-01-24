@@ -1,4 +1,6 @@
 {
+ "ETag": "W/\"873e503b726267a340fe6d971831e568386ea2b3b35a58dd6642f19a58ed0bdd\"",
+ "Last-Modified": "Fri, 24 Jan 2025 15:19:21 GMT",
  "base": {
   "repo": {
    "name": "torchdata-feedstock"
@@ -15,11 +17,11 @@
  "id": 2297009634,
  "labels": [],
  "last_modified": null,
- "mergeable": null,
- "mergeable_state": "unknown",
+ "mergeable": true,
+ "mergeable_state": "unstable",
  "merged": false,
  "merged_at": null,
  "number": 38,
  "state": "open",
- "updated_at": "2025-01-24T15:17:52Z"
+ "updated_at": "2025-01-24T15:19:21Z"
 }
