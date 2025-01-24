@@ -1,4 +1,6 @@
 {
+ "ETag": "W/\"3e857acdc1c00010b6bbe0dfa0b3f3a322775ea6abe881983bc372f6d8d5a132\"",
+ "Last-Modified": "Fri, 24 Jan 2025 16:32:55 GMT",
  "base": {
   "repo": {
    "name": "moka-py-feedstock"
@@ -15,11 +17,11 @@
  "id": 2297142379,
  "labels": [],
  "last_modified": null,
- "mergeable": null,
- "mergeable_state": "unknown",
+ "mergeable": true,
+ "mergeable_state": "unstable",
  "merged": false,
  "merged_at": null,
  "number": 2,
  "state": "open",
- "updated_at": "2025-01-24T16:31:27Z"
+ "updated_at": "2025-01-24T16:32:55Z"
 }
