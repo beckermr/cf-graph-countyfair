@@ -29,7 +29,7 @@
   },
   "build": {
    "missing_dso_whitelist": null,
-   "number": "0",
+   "number": "1",
    "rpaths": [
     "lib/R/lib/",
     "lib/"
@@ -150,11 +150,10 @@
    "summary": "Provides functions for propensity score estimating and weighting, nonresponse weighting, and diagnosis of the weights."
   },
   "build": {
-   "merge_build_host": true,
    "missing_dso_whitelist": [
     "*/R.dll"
    ],
-   "number": "0",
+   "number": "1",
    "rpaths": [
     "lib/R/lib/",
     "lib/"
@@ -206,8 +205,7 @@
     "r-latticeextra",
     "r-survey",
     "r-xgboost",
-    "r-xtable",
-    "gcc-libs"
+    "r-xtable"
    ]
   },
   "schema_version": 0,
@@ -239,7 +237,7 @@
   },
   "build": {
    "missing_dso_whitelist": null,
-   "number": "0",
+   "number": "1",
    "rpaths": [
     "lib/R/lib/",
     "lib/"
@@ -363,7 +361,7 @@
  "pr_info": {
   "__lazy_json__": "pr_info/r-twang.json"
  },
- "raw_meta_yaml": "{% set version = \"2.6.1\" %}\n{% set posix = 'm2-' if win else '' %}\n{% set native = 'm2w64-' if win else '' %}\n\npackage:\n  name: r-twang\n  version: {{ version|replace(\"-\", \"_\") }}\n\nsource:\n  url:\n    - {{ cran_mirror }}/src/contrib/twang_{{ version }}.tar.gz\n    - {{ cran_mirror }}/src/contrib/Archive/twang/twang_{{ version }}.tar.gz\n  sha256: 0bb87dcd8f9b0628d96c50b565e9aa6222dfeb446165e12f52e4ee9b2e4e9179\n\nbuild:\n  merge_build_host: true  # [win]\n  number: 0\n  rpaths:\n    - lib/R/lib/\n    - lib/\n  missing_dso_whitelist:\n    - '*/R.dll'                    # [win]\n\nrequirements:\n  build:\n    - {{ compiler('c') }}          # [not win]\n    - {{ stdlib(\"c\") }}            # [not win]\n    - {{ compiler('m2w64_c') }}    # [win]\n    - {{ stdlib(\"m2w64_c\") }}      # [win]\n    - {{ posix }}filesystem        # [win]\n    - {{ posix }}make\n    - {{ posix }}sed               # [win]\n    - {{ posix }}coreutils         # [win]\n    - {{ posix }}zip               # [win]\n    - cross-r-base {{ r_base }}    # [build_platform != target_platform]\n  host:\n    - r-base\n    - r-matrixmodels\n    - r-data.table\n    - r-gbm >=1.5_3\n    - r-ggplot2\n    - r-lattice\n    - r-latticeextra\n    - r-survey\n    - r-xgboost\n    - r-xtable\n    - libblas\n    - liblapack\n  run:\n    - r-base\n    - {{ native }}gcc-libs         # [win]\n    - r-matrixmodels\n    - r-data.table\n    - r-gbm >=1.5_3\n    - r-ggplot2\n    - r-lattice\n    - r-latticeextra\n    - r-survey\n    - r-xgboost\n    - r-xtable\n\ntest:\n  commands:\n    - $R -e \"library('twang')\"           # [not win]\n    - \"\\\"%R%\\\" -e \\\"library('twang')\\\"\"  # [win]\n\nabout:\n  home: https://CRAN.R-project.org/package=twang\n  license: GPL-3.0-only\n  summary: Provides functions for propensity score estimating and weighting, nonresponse weighting, and diagnosis of the weights.\n  license_family: GPL3\n  license_file:\n    - '{{ environ[\"PREFIX\"] }}/lib/R/share/licenses/GPL-3'\n    - LICENSE\n\nextra:\n  recipe-maintainers:\n    - conda-forge/r\n    - leej3\n",
+ "raw_meta_yaml": "{% set version = \"2.6.1\" %}\n{% set posix = 'm2-' if win else '' %}\n\npackage:\n  name: r-twang\n  version: {{ version|replace(\"-\", \"_\") }}\n\nsource:\n  url:\n    - {{ cran_mirror }}/src/contrib/twang_{{ version }}.tar.gz\n    - {{ cran_mirror }}/src/contrib/Archive/twang/twang_{{ version }}.tar.gz\n  sha256: 0bb87dcd8f9b0628d96c50b565e9aa6222dfeb446165e12f52e4ee9b2e4e9179\n\nbuild:\n  number: 1\n  rpaths:\n    - lib/R/lib/\n    - lib/\n  missing_dso_whitelist:\n    - '*/R.dll'                    # [win]\n\nrequirements:\n  build:\n    - {{ compiler('c') }}          # [not win]\n    - {{ stdlib(\"c\") }}            # [not win]\n    - {{ compiler('m2w64_c') }}    # [win]\n    - {{ stdlib(\"m2w64_c\") }}      # [win]\n    - {{ posix }}filesystem        # [win]\n    - {{ posix }}make\n    - {{ posix }}sed               # [win]\n    - {{ posix }}coreutils         # [win]\n    - {{ posix }}zip               # [win]\n    - cross-r-base {{ r_base }}    # [build_platform != target_platform]\n  host:\n    - r-base\n    - r-matrixmodels\n    - r-data.table\n    - r-gbm >=1.5_3\n    - r-ggplot2\n    - r-lattice\n    - r-latticeextra\n    - r-survey\n    - r-xgboost\n    - r-xtable\n    - libblas\n    - liblapack\n  run:\n    - r-base\n    - r-matrixmodels\n    - r-data.table\n    - r-gbm >=1.5_3\n    - r-ggplot2\n    - r-lattice\n    - r-latticeextra\n    - r-survey\n    - r-xgboost\n    - r-xtable\n\ntest:\n  commands:\n    - $R -e \"library('twang')\"           # [not win]\n    - \"\\\"%R%\\\" -e \\\"library('twang')\\\"\"  # [win]\n\nabout:\n  home: https://CRAN.R-project.org/package=twang\n  license: GPL-3.0-only\n  summary: Provides functions for propensity score estimating and weighting, nonresponse weighting, and diagnosis of the weights.\n  license_family: GPL3\n  license_file:\n    - '{{ environ[\"PREFIX\"] }}/lib/R/share/licenses/GPL-3'\n    - LICENSE\n\nextra:\n  recipe-maintainers:\n    - conda-forge/r\n    - leej3\n",
  "req": {
   "__set__": true,
   "elements": [
@@ -371,7 +369,6 @@
    "c_stdlib_stub",
    "coreutils",
    "filesystem",
-   "gcc-libs",
    "libblas",
    "liblapack",
    "m2w64_c_compiler_stub",
@@ -430,7 +427,6 @@
    "elements": [
     "c_compiler_stub",
     "c_stdlib_stub",
-    "gcc-libs",
     "r-base",
     "r-data.table",
     "r-gbm",
@@ -484,7 +480,6 @@
   "run": {
    "__set__": true,
    "elements": [
-    "gcc-libs",
     "r-base",
     "r-data.table",
     "r-gbm >=1.5_3",
@@ -526,11 +521,10 @@
    "summary": "Provides functions for propensity score estimating and weighting, nonresponse weighting, and diagnosis of the weights."
   },
   "build": {
-   "merge_build_host": true,
    "missing_dso_whitelist": [
     "*/R.dll"
    ],
-   "number": "0",
+   "number": "1",
    "rpaths": [
     "lib/R/lib/",
     "lib/"
@@ -572,7 +566,6 @@
    ],
    "run": [
     "r-base",
-    "gcc-libs",
     "r-matrixmodels",
     "r-data.table",
     "r-gbm >=1.5_3",
@@ -631,7 +624,6 @@
   "run": {
    "__set__": true,
    "elements": [
-    "gcc-libs",
     "r-base",
     "r-data.table",
     "r-gbm",
